@@ -1,0 +1,58 @@
+[
+  {
+    "uuid": "3c00b58d-a066-4f52-a2b7-615641dcbe00",
+    "name": "Server",
+    "created": "2017-03-28 21:00:52 +0200",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "6a6ae172-6dc0-3518-a12d-43d73fda8957",
+    "name": "Hackerinos",
+    "created": "2017-03-21 14:37:29 +0100",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "§7[§3Solent§7]§f Unfair Advantage"
+  },
+  {
+    "uuid": "f78a4d8d-d51b-4b39-98a3-230f2de0c670",
+    "name": "CONSOLE",
+    "created": "2017-03-28 21:00:50 +0200",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "29e118e4-6441-3267-897d-f15f3581165c",
+    "name": "Hackerino",
+    "created": "2017-03-21 14:35:12 +0100",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "§7[§3Solent§7]§f Unfair Advantage"
+  },
+  {
+    "uuid": "7b26b166-2024-3cef-b53f-2da5c1068f35",
+    "name": "@p",
+    "created": "2017-03-28 21:00:43 +0200",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "8f2bcdfd-da3f-3de8-b74f-7fdede8266d9",
+    "name": "Hackerinoasdasd",
+    "created": "2017-03-21 14:48:35 +0100",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "§7[§3Solent§7]§f Unfair Advantage"
+  },
+  {
+    "uuid": "b1d7fef8-0984-3363-8340-e82d63122f9e",
+    "name": "Hackerinoss",
+    "created": "2017-03-21 14:41:35 +0100",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "§7[§3Solent§7]§f Unfair Advantage"
+  }
+]

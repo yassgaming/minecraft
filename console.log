@@ -1,0 +1,2229 @@
+This Spigot build supports Minecraft clients both of versions 1.7.x and of 1.8.x.
+*** It is imperative that backups be taken before running this build on your server! ***
+Please report any such issues to http://www.spigotmc.org/, stating your client, server, and if applicable BungeeCord versions.
+*** Any bug reports not running the very latest versions of these softwares will be ignored ***
+
+
+[21:27:19 INFO]: Starting minecraft server version 1.7.10
+[21:27:19 INFO]: Loading properties
+[21:27:19 INFO]: Default game type: SURVIVAL
+[21:27:19 INFO]: This server is running CraftBukkit version git-Spigot-1.7.9-R0.2-208-ge0f2e95 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[21:27:19 INFO]: Server Ping Player Sample Count: 12
+[21:27:19 INFO]: Using 4 threads for Netty based IO
+[21:27:19 INFO]: Debug logging is disabled
+[21:27:19 INFO]: Generating keypair
+[21:27:20 INFO]: Starting Minecraft server on *:41795
+[21:27:20 ERROR]: Could not load 'plugins/SexyPex.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: PermissionsEx
+        at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:225) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugins(CraftServer.java:369) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:152) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+[21:27:20 INFO]: Set PluginClassLoader as parallel capable
+[21:27:20 INFO]: [Recount] Loading Recount v3.1.1
+[21:27:20 INFO]: [Spartan] Loading Spartan vBuild 40
+[21:27:20 INFO]: [WorldEdit] Loading WorldEdit v6.1.1-SNAPSHOT;3463-219d2da
+[21:27:20 INFO]: [HungerPlusPlus] Loading HungerPlusPlus v0.4a
+[21:27:20 INFO]: [OnlyProxyJoin] Loading OnlyProxyJoin v1.1.2
+[21:27:20 INFO]: [Skript] Loading Skript v2.2-SNAPSHOT
+[21:27:20 INFO]: [Essentials] Loading Essentials vPre2.14.1.3
+[21:27:20 INFO]: [WildSkript] Loading WildSkript v1.8
+[21:27:20 INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[21:27:20 INFO]: [PlayerReset] Loading PlayerReset v1.7
+[21:27:20 INFO]: [GroupManager] Loading GroupManager vPre2.14.1.3 FINAL (Phoenix)
+[21:27:20 INFO]: [SkQuery] Loading SkQuery v3.22.1
+[21:27:20 INFO]: [PHPUltraV4] Loading PHPUltraV4 v4
+[21:27:20 INFO]: [Vault] Loading Vault v1.5.6-b49
+[21:27:20 INFO]: [HackAlerts3] Loading HackAlerts3 v0.1
+[21:27:20 INFO]: [StaffPlus] Loading StaffPlus v3.2.1
+[21:27:20 INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.13.1
+[21:27:20 INFO]: [ProtocolLib] Loading ProtocolLib v3.7.0
+[21:27:21 INFO]: [NoSpawn] Loading NoSpawn v1.9.6
+[21:27:21 INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.1
+[21:27:21 INFO]: [LiteBans] Loading LiteBans v2.1.9
+[21:27:21 INFO]: [AdvancedSurvivalGames] Loading AdvancedSurvivalGames v3.1.1
+[21:27:21 INFO]: [Vault] Enabling Vault v1.5.6-b49
+[21:27:21 INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:27:21 INFO]: [Vault] [Permission] GroupManager found: Waiting
+[21:27:21 INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:27:21 INFO]: [Vault] [Chat] GroupManager found: Waiting
+[21:27:21 INFO]: [Vault] Enabled Version 1.5.6-b49
+[21:27:21 INFO]: [ProtocolLib] Enabling ProtocolLib v3.7.0
+[21:27:21 INFO]: [ProtocolLib] Started structure compiler thread.
+[21:27:21 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:27:21 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:27:21 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:27:21 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:27:21 INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[21:27:22 INFO]: Preparing level "world"
+[21:27:22 INFO]: -------- World Settings For [world] --------
+[21:27:22 INFO]: Mob Spawn Range: 4
+[21:27:22 INFO]: Anti X-Ray: true
+[21:27:22 INFO]:        Engine Mode: 1
+[21:27:22 INFO]:        Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:27:22 INFO]:        Replace Blocks: [1, 5]
+[21:27:22 INFO]: Nerfing mobs spawned from spawners: false
+[21:27:22 INFO]: Cactus Growth Modifier: 100%
+[21:27:22 INFO]: Cane Growth Modifier: 100%
+[21:27:22 INFO]: Melon Growth Modifier: 100%
+[21:27:22 INFO]: Mushroom Growth Modifier: 100%
+[21:27:22 INFO]: Pumpkin Growth Modifier: 100%
+[21:27:22 INFO]: Sapling Growth Modifier: 100%
+[21:27:22 INFO]: Wheat Growth Modifier: 100%
+[21:27:22 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:27:22 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:27:22 INFO]: Alternative Hopper Ticking: false
+[21:27:22 INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:27:22 INFO]: Random Lighting Updates: false
+[21:27:22 INFO]: Structure Info Saving: true
+[21:27:22 INFO]: Sending up to 10 chunks per packet
+[21:27:22 INFO]: Max Entity Collisions: 8
+[21:27:22 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:27:22 INFO]: Max TNT Explosions: 100
+[21:27:22 INFO]: View Distance: 6
+[21:27:22 INFO]: Chunks to Grow per Tick: 650
+[21:27:22 INFO]: Clear tick list: false
+[21:27:22 INFO]: Experience Merge Radius: 3.0
+[21:27:22 INFO]: Item Despawn Rate: 6000
+[21:27:22 INFO]: Item Merge Radius: 2.5
+[21:27:22 INFO]: Arrow Despawn Rate: 1200
+[21:27:22 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:27:22 INFO]: Zombie Aggressive Towards Villager: true
+[21:27:22 INFO]: Preparing start region for level 0 (Seed: -2048358471742304052)
+[21:27:22 INFO]: [Recount] Enabling Recount v3.1.1
+[21:27:22 INFO]: Recount Version 3.1.1 has been enabled
+[21:27:23 INFO]: [Recount] Loaded 641 custom item names!
+[21:27:23 INFO]: [Spartan] Enabling Spartan vBuild 40
+[21:27:23 INFO]: [WorldEdit] Enabling WorldEdit v6.1.1-SNAPSHOT;3463-219d2da
+[21:27:24 INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:27:24 INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.CraftBukkit_v1_7_R4 as the Bukkit adapter
+[21:27:24 INFO]: [HungerPlusPlus] Enabling HungerPlusPlus v0.4a
+[21:27:24 INFO]: [HungerPlusPlus] 0.4a enabled!
+[21:27:24 INFO]: [OnlyProxyJoin] Enabling OnlyProxyJoin v1.1.2
+[21:27:24 INFO]: [OnlyProxyJoin] v1.1.2 is now enabled!
+[21:27:24 INFO]: [Skript] Enabling Skript v2.2-SNAPSHOT
+[21:27:25 INFO]: [Skript] Loaded a total of 11504 english aliases
+[21:27:25 INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[21:27:25 INFO]: [Essentials] Enabling Essentials vPre2.14.1.3
+[21:27:25 WARN]: §4Version mismatch! Please update EssentialsSpawn to the same version.
+[21:27:25 INFO]: Bukkit version format changed. Version not checked.
+[21:27:25 INFO]: git-Spigot-1.7.9-R0.2-208-ge0f2e95 (MC: 1.7.10)
+[21:27:25 INFO]: 1.7.10-R0.1-SNAPSHOT
+[21:27:25 INFO]: Using locale en_GB
+[21:27:26 INFO]: Using locale en_GB
+[21:27:26 INFO]: [Vault][Economy] Essentials Economy hooked.
+[21:27:26 INFO]: Essentials: Using config file enhanced permissions.
+[21:27:26 INFO]: Permissions listed in as player-commands will be given to all users.
+[21:27:26 INFO]: [WildSkript] Enabling WildSkript v1.8
+[21:27:26 INFO]: [WildSkript] skQuery hooked!
+[21:27:26 INFO]: [WildSkript] Classes, Events, Conditions, Effects, Expressions and EventValues have been registered!
+[21:27:26 INFO]: [WildSkript] Objects and Complex have been registered!
+[21:27:26 INFO]: [WildSkript] ~ Created by & © Dzikoysk ~
+[21:27:26 INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[21:27:26 INFO]: [PlayerReset] Enabling PlayerReset v1.7
+[21:27:26 INFO]: [GroupManager] Enabling GroupManager vPre2.14.1.3 FINAL (Phoenix)
+[21:27:26 WARN]: GroupManager - WARNING - Inherited group 'default' not found for group Iron. Ignoring entry in file: plugins/GroupManager/worlds/world/groups.yml
+[21:27:26 WARN]: GroupManager - WARNING - Inherited group 'default' not found for group Iron. Ignoring entry in file: plugins/GroupManager/worlds/maps/groups.yml
+[21:27:26 WARN]: GroupManager - WARNING - There is no group Builder, as stated for player snowleo: Set to 'Regular' for file: plugins/GroupManager/worlds/maps/users.yml
+[21:27:26 WARN]: GroupManager - WARNING - There is no group Moderator, as stated for player KHobbits: Set to 'Regular' for file: plugins/GroupManager/worlds/maps/users.yml
+[21:27:26 WARN]: GroupManager - WARNING - There is no group Moderator, as stated for player ElgarL: Set to 'Regular' for file: plugins/GroupManager/worlds/maps/users.yml
+[21:27:26 INFO]: GroupManager - INFO - World Found: maps
+[21:27:26 INFO]: GroupManager - INFO - World Found: world
+[21:27:26 INFO]: GroupManager - INFO - Superperms support enabled.
+[21:27:26 INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+[21:27:26 INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
+[21:27:26 INFO]: GroupManager version Pre2.14.1.3 FINAL (Phoenix) is enabled!
+[21:27:26 INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[21:27:26 INFO]: [Vault][Permission] GroupManager hooked.
+[21:27:26 INFO]: [Vault][Chat] GroupManager - Chat hooked.
+[21:27:26 INFO]: Essentials: Using GroupManager based permissions.
+[21:27:26 INFO]: [SkQuery] Enabling SkQuery v3.22.1
+[21:27:26 INFO]: [skQuery] Snooping enabled from com.w00tmast3r.skquery.SkQuery
+[21:27:26 INFO]: [skQuery] Locating classes from SkQuery...
+[21:27:26 INFO]: [skQuery] Finished snooping of SkQuery with 170 classes.
+[21:27:26 INFO]: [skQuery] Beginning to process a total of 170 from SkQuery
+[21:27:26 INFO]: [skQuery] Out of 170 classes, 164 classes were loaded from SkQuery
+[21:27:26 INFO]: [PHPUltraV4] Enabling PHPUltraV4 v4
+[21:27:26 INFO]: PHPUltraV4 By: zurg200 > Has Been Enabled!
+[21:27:26 INFO]: [HackAlerts3] Enabling HackAlerts3 v0.1
+[21:27:26 INFO]: [StaffPlus] Enabling StaffPlus v3.2.1
+[21:27:26 INFO]: API class 'org.inventivetalent.packetlistener.PacketListenerAPI' is not yet initialized. Creating new instance.
+[21:27:26 INFO]: [ReflectionHelper] Version is v1_7_R4 (10704)
+[21:27:26 INFO]: [PacketListenerAPI] Using NMUChannel
+[21:27:26 INFO]: Injected custom channel handlers.
+[21:27:26 INFO]: Adding channels for online players...
+[21:27:26 INFO]: [Staff+] Version protocol set to 'v1_7_R4'.
+[21:27:27 INFO]: [Staff+] Staff+ has been enabled! Initialization took 131ms.
+[21:27:27 INFO]: [Staff+] Plugin created by Shortninja.
+[21:27:27 INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.13.1
+[21:27:27 ERROR]: Error occurred while enabling EssentialsSpawn v2.13.1 (Is it up to date?)
+java.lang.NoSuchMethodError: com.earth2me.essentials.I18n._(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+        at com.earth2me.essentials.spawn.EssentialsSpawn.onEnable(EssentialsSpawn.java:34) ~[?:?]
+        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:316) ~[spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:412) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at org.bukkit.craftbukkit.v1_7_R4.CraftServer.loadPlugin(CraftServer.java:476) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at org.bukkit.craftbukkit.v1_7_R4.CraftServer.enablePlugins(CraftServer.java:394) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at net.minecraft.server.v1_7_R4.MinecraftServer.n(MinecraftServer.java:360) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at net.minecraft.server.v1_7_R4.MinecraftServer.g(MinecraftServer.java:334) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at net.minecraft.server.v1_7_R4.MinecraftServer.a(MinecraftServer.java:290) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at net.minecraft.server.v1_7_R4.DedicatedServer.init(DedicatedServer.java:210) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at net.minecraft.server.v1_7_R4.MinecraftServer.run(MinecraftServer.java:458) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+        at net.minecraft.server.v1_7_R4.ThreadServerApplication.run(SourceFile:628) [spigot.jar:git-Spigot-1.7.9-R0.2-208-ge0f2e95]
+[21:27:27 INFO]: [NoSpawn] Enabling NoSpawn v1.9.6
+[21:27:27 INFO]: [NoSpawn] Vault integration enabled!
+[21:27:27 INFO]: NoSpawn version 1.9.6 is enabled!
+[21:27:27 INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.1
+[21:27:27 INFO]: [HolographicDisplays] Found ProtocolLib, using old version.
+[21:27:27 INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[21:27:27 INFO]: [LiteBans] Enabling LiteBans v2.1.9
+[21:27:27 INFO]: [LiteBans] Loading SQL driver: mysql (com.mysql.jdbc.Driver)
+[21:27:27 INFO]: [LiteBans] Connecting to database...
+[21:27:28 INFO]: [LiteBans] Connected to [jdbc:mysql://sql7.freesqldatabase.com:3306/sql7142443] (497.4 ms).
+[21:27:28 INFO]: [LiteBans] [Sync] Server name: litebans
+[21:27:28 INFO]: [LiteBans] [Sync] Server UUID: 9437524b5cef49fdad240cd8b9033fff
+[21:27:28 INFO]: [LiteBans] Database connection fully initialized (703.8 ms).
+[21:27:28 INFO]: [LiteBans] v2.1.9 enabled. Startup took 836 ms.
+[21:27:28 INFO]: [AdvancedSurvivalGames] Enabling AdvancedSurvivalGames v3.1.1
+[21:27:28 INFO]: [AdvancedSurvivalGames] Auto detection bungeecord server's name disabled. Check you config and be sure that server currently has more than 1 player
+[21:27:28 INFO]: [AdvancedSurvivalGames] CHESTS: The Custom Chest mode enabled!
+[21:27:28 INFO]: [AdvancedSurvivalGames] Randomly chosen maps for voting: [AlaskanVillage, GreenGrass, SurvivalGames4, Turbulence, Par72]
+[21:27:28 INFO]: [AdvancedSurvivalGames] Detected Vault plugin! Hooking into a plugin...
+[21:27:28 INFO]: [AdvancedSurvivalGames] Detected HolographicDisplays plugin! Hooking into a plugin...
+[21:27:28 INFO]: [AdvancedSurvivalGames] VERSION: v1_7_R4
+[21:27:28 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:27:29 INFO]: Done (7.004s)! For help, type "help" or "?"
+[21:27:29 INFO]: Starting GS4 status listener
+[21:27:29 INFO]: Query running on 0.0.0.0:41795
+[21:27:29 INFO]: [Skript] Loading variables...
+[21:27:29 INFO]: [Skript] Loaded 2375 variables in 0.1 seconds
+[21:27:29 ERROR]: [Skript] Can't compare a block with a types.sound (ArvetixPvP.sk, line 17: event-block is fire')
+[21:27:31 ERROR]: [Skript] Can't compare a block with a types.sound (NetixPvP.sk, line 17: event-block is fire')
+[21:27:31 ERROR]: [Skript] A command with the name /ping is already defined in ArvetixPvP.sk (NetixPvP.sk, line 25: command /ping:')
+[21:27:31 ERROR]: [Skript] A command with the name /fix is already defined in ArvetixPvP.sk (NetixPvP.sk, line 29: command /fix:')
+[21:27:31 ERROR]: [Skript] A command with the name /punishment is already defined in ArvetixPvP.sk (NetixPvP.sk, line 41: command /punishment:')
+[21:27:31 ERROR]: [Skript] A command with the name /evidence is already defined in ArvetixPvP.sk (NetixPvP.sk, line 60: command /evidence [<offlineplayer>] [<text>]:')
+[21:27:31 ERROR]: [Skript] A command with the name /evidencereset is already defined in ArvetixPvP.sk (NetixPvP.sk, line 76: command /evidencereset [<offlineplayer>]:')
+[21:27:31 ERROR]: [Skript] A command with the name /cc is already defined in ArvetixPvP.sk (NetixPvP.sk, line 100: command /cc [<text>]:')
+[21:27:31 ERROR]: [Skript] A command with the name /ccsil is already defined in ArvetixPvP.sk (NetixPvP.sk, line 137: command /ccsil <player>:')
+[21:27:31 ERROR]: [Skript] A command with the name /rank is already defined in ArvetixPvP.sk (NetixPvP.sk, line 145: command /rank [<offlineplayer>] [<text>]:')
+[21:27:31 ERROR]: [Skript] A command with the name /mask is already defined in ArvetixPvP.sk (NetixPvP.sk, line 243: command /mask [<text>]:')
+[21:27:31 ERROR]: [Skript] A command with the name /unmask is already defined in ArvetixPvP.sk (NetixPvP.sk, line 306: command /unmask:')
+[21:27:31 ERROR]: [Skript] A command with the name /fly is already defined in ArvetixPvP.sk (NetixPvP.sk, line 331: command /fly [<text>]:')
+[21:27:31 ERROR]: [Skript] A command with the name /staffchat is already defined in ArvetixPvP.sk (NetixPvP.sk, line 364: command /staffchat [<text>]:')
+[21:27:31 ERROR]: [Skript] A command with the name /ss is already defined in ArvetixPvP.sk (NetixPvP.sk, line 376: command /ss:')
+[21:27:31 ERROR]: [Skript] A command with the name /silentjoin is already defined in ArvetixPvP.sk (NetixPvP.sk, line 385: command /silentjoin:')
+[21:27:31 ERROR]: [Skript] A command with the name /list is already defined in ArvetixPvP.sk (NetixPvP.sk, line 447: command /list:')
+[21:27:31 ERROR]: [Skript] A command with the name /statsreset is already defined in ArvetixPvP.sk (NetixPvP.sk, line 467: command /statsreset [<text>]:')
+[21:27:31 INFO]: [Skript] Loaded 3 scripts with a total of 46 triggers and 16 commands in 2.52 seconds
+[21:27:31 INFO]: [Skript] Finished loading.
+[21:27:31 INFO]: GroupManager - INFO - Bukkit Permissions Updated!
+[21:27:31 INFO]: [Vault] Checking for Updates ... 
+[21:27:32 INFO]: [Vault] No new version available
+[21:35:28 INFO]: UUID of player gqbuuu is c8c148a0-4b8c-412e-b195-074fa759b6f7
+[21:35:28 INFO]: Couldn't retrieve your world. Default world 'world' selected.
+[21:35:28 INFO]: The user doesn't have directly that variable!
+[21:35:28 INFO]: gqbuuu has joined.
+[21:35:28 INFO]: The user doesn't have directly that variable!
+[21:35:28 INFO]: gqbuuu has joined.
+[21:35:28 INFO]: gqbuuu[/185.11.234.185:59438] logged in with entity id 0 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:35:28 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/c8c148a0-4b8c-412e-b195-074fa759b6f7.yml
+[21:35:31 INFO]: gqbuuu lost connection: Disconnected
+[21:35:31 INFO]: The user doesn't have directly that variable!
+[21:35:31 INFO]: gqbuuu has left.
+[21:35:31 INFO]: The user doesn't have directly that variable!
+[21:35:31 INFO]: gqbuuu has left.
+[21:35:52 INFO]: UUID of player eddyAk47 is d024f475-437b-48a8-b4d9-462b00394e45
+[21:35:52 INFO]: The user doesn't have directly that variable!
+[21:35:52 INFO]: eddyAk47 has joined.
+[21:35:53 INFO]: The user doesn't have directly that variable!
+[21:35:53 INFO]: eddyAk47 has joined.
+[21:35:53 INFO]: eddyAk47[/77.58.66.52:49645] logged in with entity id 1 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:35:53 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/d024f475-437b-48a8-b4d9-462b00394e45.yml
+[21:35:58 INFO]: eddyAk47 lost connection: Disconnected
+[21:35:58 INFO]: The user doesn't have directly that variable!
+[21:35:58 INFO]: eddyAk47 has left.
+[21:35:58 INFO]: The user doesn't have directly that variable!
+[21:35:58 INFO]: eddyAk47 has left.
+[21:36:54 INFO]: UUID of player WowRobert is b4ce16f3-82aa-4331-b59c-bd41241f0544
+[21:36:54 INFO]: The user doesn't have directly that variable!
+[21:36:54 INFO]: WowRobert has joined.
+[21:36:54 INFO]: The user doesn't have directly that variable!
+[21:36:54 INFO]: WowRobert has joined.
+[21:36:54 INFO]: WowRobert[/188.26.42.108:38625] logged in with entity id 2 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:36:54 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/b4ce16f3-82aa-4331-b59c-bd41241f0544.yml
+[21:37:10 INFO]: UUID of player Pulsic is 52bd01f6-2a4b-479d-8800-d7e75586494a
+[21:37:10 INFO]: The user doesn't have directly that variable!
+[21:37:10 INFO]: Pulsic has joined.
+[21:37:10 INFO]: The user doesn't have directly that variable!
+[21:37:10 INFO]: Pulsic has joined.
+[21:37:10 INFO]: Pulsic[/86.120.25.122:53735] logged in with entity id 3 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:37:10 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/52bd01f6-2a4b-479d-8800-d7e75586494a.yml
+[21:37:21 INFO]: UUID of player LEGENND is 7ecf107e-3495-4de2-8cab-ed90ae62d5f7
+[21:37:21 INFO]: The user doesn't have directly that variable!
+[21:37:21 INFO]: LEGENND has joined.
+[21:37:21 INFO]: The user doesn't have directly that variable!
+[21:37:21 INFO]: LEGENND has joined.
+[21:37:21 INFO]: LEGENND[/5.14.215.166:58104] logged in with entity id 4 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:37:21 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/7ecf107e-3495-4de2-8cab-ed90ae62d5f7.yml
+[21:37:23 INFO]: UUID of player Gravery4rd is 2e150ff7-2393-4b17-bfee-fa1f35c67af7
+[21:37:23 INFO]: The user doesn't have directly that variable!
+[21:37:23 INFO]: Gravery4rd has joined.
+[21:37:23 INFO]: The user doesn't have directly that variable!
+[21:37:23 INFO]: Gravery4rd has joined.
+[21:37:23 INFO]: Gravery4rd[/88.227.179.6:38280] logged in with entity id 5 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:37:23 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/2e150ff7-2393-4b17-bfee-fa1f35c67af7.yml
+[21:37:24 INFO]: LEGENND issued server command: /v 1
+[21:37:26 INFO]: UUID of player Eraxe is ca0b46f8-28f7-4471-b9d9-5c18e2dc48f7
+[21:37:26 INFO]: The user doesn't have directly that variable!
+[21:37:26 INFO]: Eraxe has joined.
+[21:37:26 INFO]: The user doesn't have directly that variable!
+[21:37:26 INFO]: Eraxe has joined.
+[21:37:26 INFO]: Eraxe[/86.122.215.196:42400] logged in with entity id 6 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:37:26 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/ca0b46f8-28f7-4471-b9d9-5c18e2dc48f7.yml
+[21:37:26 INFO]: GroupManager - INFO -  Data files refreshed.
+[21:37:28 INFO]: WowRobert issued server command: /stats
+[21:37:30 INFO]: UUID of player iAnilPvP is c9f9c6a2-0efa-46c2-9566-c7a8f486fc95
+[21:37:30 INFO]: [NetixPvP] 120 seconds until the games begin!
+[21:37:30 INFO]: The user doesn't have directly that variable!
+[21:37:30 INFO]: iAnilPvP has joined.
+[21:37:30 INFO]: The user doesn't have directly that variable!
+[21:37:30 INFO]: iAnilPvP has joined.
+[21:37:30 INFO]: iAnilPvP[/141.196.82.127:42888] logged in with entity id 7 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:37:30 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/c9f9c6a2-0efa-46c2-9566-c7a8f486fc95.yml
+[21:37:33 INFO]: iAnilPvP issued server command: /v
+[21:37:34 INFO]: WowRobert issued server command: /stats
+[21:37:39 INFO]: iAnilPvP issued server command: /v 3
+[21:37:40 INFO]: WowRobert issued server command: /stats
+[21:37:41 INFO]: WowRobert issued server command: /stats
+[21:37:47 INFO]: Pulsic issued server command: /STATS
+[21:37:47 INFO]: LEGENND issued server command: /stats
+[21:37:48 INFO]: LEGENND issued server command: /gf
+[21:37:48 INFO]: LEGENND issued server command: /ping
+[21:37:49 INFO]: WowRobert issued server command: /stats
+[21:37:55 INFO]: UUID of player YouSpitICrit is 3e35dddd-6b66-4960-9098-7a0fc122e640
+[21:37:55 INFO]: The user doesn't have directly that variable!
+[21:37:55 INFO]: YouSpitICrit has joined.
+[21:37:55 INFO]: The user doesn't have directly that variable!
+[21:37:55 INFO]: YouSpitICrit has joined.
+[21:37:55 INFO]: YouSpitICrit[/76.188.9.255:36233] logged in with entity id 8 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:37:55 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/3e35dddd-6b66-4960-9098-7a0fc122e640.yml
+[21:37:58 INFO]: YouSpitICrit lost connection: Disconnected
+[21:37:58 INFO]: The user doesn't have directly that variable!
+[21:37:58 INFO]: YouSpitICrit has left.
+[21:37:58 INFO]: The user doesn't have directly that variable!
+[21:37:58 INFO]: YouSpitICrit has left.
+[21:38:06 INFO]: UUID of player OneRod is e71409ac-7f18-4f18-91e1-e0bf4527489e
+[21:38:06 INFO]: The user doesn't have directly that variable!
+[21:38:06 INFO]: OneRod has joined.
+[21:38:06 INFO]: The user doesn't have directly that variable!
+[21:38:06 INFO]: OneRod has joined.
+[21:38:06 INFO]: OneRod[/82.76.202.8:34398] logged in with entity id 9 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:38:06 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/e71409ac-7f18-4f18-91e1-e0bf4527489e.yml
+[21:38:11 INFO]: UUID of player YouSpitICrit is 3e35dddd-6b66-4960-9098-7a0fc122e640
+[21:38:11 INFO]: The user doesn't have directly that variable!
+[21:38:11 INFO]: YouSpitICrit has joined.
+[21:38:11 INFO]: The user doesn't have directly that variable!
+[21:38:11 INFO]: YouSpitICrit has joined.
+[21:38:11 INFO]: YouSpitICrit[/76.188.9.255:57036] logged in with entity id 10 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:38:15 INFO]: Gravery4rd lost connection: Disconnected
+[21:38:15 INFO]: The user doesn't have directly that variable!
+[21:38:15 INFO]: Gravery4rd has left.
+[21:38:15 INFO]: The user doesn't have directly that variable!
+[21:38:15 INFO]: Gravery4rd has left.
+[21:38:16 INFO]: YouSpitICrit issued server command: /fix
+[21:38:20 INFO]: UUID of player streetdog9 is 8be4bdd6-76c3-4fc5-9391-73a12ebd9a12
+[21:38:20 INFO]: The user doesn't have directly that variable!
+[21:38:20 INFO]: streetdog9 has joined.
+[21:38:20 INFO]: The user doesn't have directly that variable!
+[21:38:20 INFO]: streetdog9 has joined.
+[21:38:20 INFO]: streetdog9[/95.10.176.149:59266] logged in with entity id 11 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:38:20 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/8be4bdd6-76c3-4fc5-9391-73a12ebd9a12.yml
+[21:38:21 INFO]: YouSpitICrit issued server command: /ping
+[21:38:28 INFO]: UUID of player Mxrcxll is 22513139-c099-4c8e-9ab2-9847c20752e7
+[21:38:28 INFO]: The user doesn't have directly that variable!
+[21:38:28 INFO]: Mxrcxll has joined.
+[21:38:28 INFO]: The user doesn't have directly that variable!
+[21:38:28 INFO]: Mxrcxll has joined.
+[21:38:28 INFO]: Mxrcxll[/75.64.105.207:47852] logged in with entity id 12 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:38:28 INFO]: UUID of player BerkayParlarYT is 16914bd2-d2f0-4ea1-8216-717c57bb49d4
+[21:38:28 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/22513139-c099-4c8e-9ab2-9847c20752e7.yml
+[21:38:28 INFO]: The user doesn't have directly that variable!
+[21:38:28 INFO]: BerkayParlarYT has joined.
+[21:38:28 INFO]: The user doesn't have directly that variable!
+[21:38:28 INFO]: BerkayParlarYT has joined.
+[21:38:28 INFO]: BerkayParlarYT[/78.184.134.178:47118] logged in with entity id 13 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:38:28 INFO]: [0]YouSpitICrit: I'm getting 400ms
+[21:38:28 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/16914bd2-d2f0-4ea1-8216-717c57bb49d4.yml
+[21:38:30 INFO]: streetdog9 issued server command: /v 5
+[21:38:31 INFO]: [NetixPvP] 60 seconds until the games begin!
+[21:38:32 INFO]: [0]YouSpitICrit: Is that good?
+[21:38:33 INFO]: UUID of player Flurh is df4d53d5-56bf-4dce-a4f8-4b102b11a0bf
+[21:38:33 INFO]: The user doesn't have directly that variable!
+[21:38:33 INFO]: Flurh has joined.
+[21:38:33 INFO]: The user doesn't have directly that variable!
+[21:38:33 INFO]: Flurh has joined.
+[21:38:33 INFO]: Flurh[/94.174.227.242:48551] logged in with entity id 14 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:38:33 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/df4d53d5-56bf-4dce-a4f8-4b102b11a0bf.yml
+[21:38:33 INFO]: BerkayParlarYT issued server command: /v 1
+[21:38:34 INFO]: streetdog9 issued server command: /ping
+[21:38:35 INFO]: UUID of player ImTreyn is a9a460b6-5188-487e-a5cb-725ad86d3c2f
+[21:38:35 INFO]: The user doesn't have directly that variable!
+[21:38:35 INFO]: ImTreyn has joined.
+[21:38:35 INFO]: The user doesn't have directly that variable!
+[21:38:35 INFO]: ImTreyn has joined.
+[21:38:35 INFO]: ImTreyn[/37.110.159.246:51696] logged in with entity id 15 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:38:35 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/a9a460b6-5188-487e-a5cb-725ad86d3c2f.yml
+[21:38:36 INFO]: Flurh issued server command: /v
+[21:38:36 INFO]: [0]BerkayParlarYT: v 1
+[21:38:38 INFO]: Flurh issued server command: /v 1
+[21:38:39 INFO]: [0]streetdog9: 215 ping
+[21:38:39 INFO]: UUID of player ViperRO is 3dde0e29-0724-4d32-990b-a8b755093c73
+[21:38:39 INFO]: The user doesn't have directly that variable!
+[21:38:39 INFO]: ViperRO has joined.
+[21:38:39 INFO]: The user doesn't have directly that variable!
+[21:38:39 INFO]: ViperRO has joined.
+[21:38:39 INFO]: ViperRO[/109.97.53.82:50229] logged in with entity id 16 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:38:39 INFO]: [0]Flurh: v 1
+[21:38:39 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/3dde0e29-0724-4d32-990b-a8b755093c73.yml
+[21:38:41 INFO]: [0]streetdog9: 215 ping
+[21:38:42 INFO]: [0]YouSpitICrit: Is 400ms good?
+[21:38:43 INFO]: streetdog9 issued server command: /ping
+[21:38:46 INFO]: BerkayParlarYT issued server command: /ping
+[21:38:47 INFO]: ViperRO issued server command: /v 5
+[21:38:47 INFO]: streetdog9 issued server command: /fix
+[21:38:49 INFO]: UUID of player epicherobrine978 is e742d8f3-9c1d-45ac-8c07-7024ab2ce956
+[21:38:49 INFO]: The user doesn't have directly that variable!
+[21:38:49 INFO]: epicherobrine978 has joined.
+[21:38:49 INFO]: The user doesn't have directly that variable!
+[21:38:49 INFO]: epicherobrine978 has joined.
+[21:38:49 INFO]: epicherobrine978[/85.96.141.211:58817] logged in with entity id 17 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:38:49 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/e742d8f3-9c1d-45ac-8c07-7024ab2ce956.yml
+[21:38:50 INFO]: [0]YouSpitICrit: LOL
+[21:38:51 INFO]: [0]Flurh: LOL
+[21:38:52 INFO]: ViperRO issued server command: /ping
+[21:38:53 INFO]: ViperRO issued server command: /ping
+[21:38:54 INFO]: ViperRO issued server command: /ping
+[21:38:54 INFO]: UUID of player imSnakeRo is c4a769ac-c384-4461-b86f-3e261a44dc10
+[21:38:55 INFO]: The user doesn't have directly that variable!
+[21:38:55 INFO]: imSnakeRo has joined.
+[21:38:55 INFO]: The user doesn't have directly that variable!
+[21:38:55 INFO]: imSnakeRo has joined.
+[21:38:55 INFO]: imSnakeRo[/86.123.184.111:39472] logged in with entity id 18 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:38:55 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/c4a769ac-c384-4461-b86f-3e261a44dc10.yml
+[21:38:55 INFO]: [0]ViperRO: LOL
+[21:38:55 INFO]: UUID of player Healeroo is d0aab181-2135-41a1-81d0-1087f6eee0cb
+[21:38:55 INFO]: The user doesn't have directly that variable!
+[21:38:55 INFO]: Healeroo has joined.
+[21:38:55 INFO]: The user doesn't have directly that variable!
+[21:38:55 INFO]: Healeroo has joined.
+[21:38:55 INFO]: Healeroo[/78.1.152.103:36121] logged in with entity id 19 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:38:55 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/d0aab181-2135-41a1-81d0-1087f6eee0cb.yml
+[21:38:56 INFO]: [0]epicherobrine978: LOL
+[21:38:57 INFO]: [0]BerkayParlarYT: 152 ping
+[21:38:59 INFO]: Flurh issued server command: /ping
+[21:39:01 INFO]: -------- World Settings For [AlaskanVillage] --------
+[21:39:01 INFO]: Mob Spawn Range: 4
+[21:39:01 INFO]: Anti X-Ray: true
+[21:39:01 INFO]:        Engine Mode: 1
+[21:39:01 INFO]:        Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:39:01 INFO]:        Replace Blocks: [1, 5]
+[21:39:01 INFO]: Nerfing mobs spawned from spawners: false
+[21:39:01 INFO]: Cactus Growth Modifier: 100%
+[21:39:01 INFO]: Cane Growth Modifier: 100%
+[21:39:01 INFO]: Melon Growth Modifier: 100%
+[21:39:01 INFO]: Mushroom Growth Modifier: 100%
+[21:39:01 INFO]: Pumpkin Growth Modifier: 100%
+[21:39:01 INFO]: Sapling Growth Modifier: 100%
+[21:39:01 INFO]: Wheat Growth Modifier: 100%
+[21:39:01 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:39:01 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:39:01 INFO]: Alternative Hopper Ticking: false
+[21:39:01 INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:39:01 INFO]: Random Lighting Updates: false
+[21:39:01 INFO]: Structure Info Saving: true
+[21:39:01 INFO]: Sending up to 10 chunks per packet
+[21:39:01 INFO]: Max Entity Collisions: 8
+[21:39:01 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:39:01 INFO]: Max TNT Explosions: 100
+[21:39:01 INFO]: View Distance: 6
+[21:39:01 INFO]: Chunks to Grow per Tick: 650
+[21:39:01 INFO]: Clear tick list: false
+[21:39:01 INFO]: Experience Merge Radius: 3.0
+[21:39:01 INFO]: Item Despawn Rate: 6000
+[21:39:01 INFO]: Item Merge Radius: 2.5
+[21:39:01 INFO]: Arrow Despawn Rate: 1200
+[21:39:01 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:39:01 INFO]: Zombie Aggressive Towards Villager: true
+[21:39:01 INFO]: Preparing start region for level 1 (Seed: 8145203688180987589)
+[21:39:02 INFO]: Preparing spawn area for AlaskanVillage, 65%
+[21:39:02 INFO]: CHOSEN MAP: AlaskanVillage
+[21:39:02 INFO]: [NetixPvP] The AlaskanVillage has been chosen!
+[21:39:02 INFO]: SELECTED MAP'S SPAWN POINTS: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+[21:39:02 INFO]: SELECTED MAP'S DEATHMATCH SPAWN POINTS: [1, 2, 3]
+[21:39:02 INFO]: [NetixPvP] 30 seconds until the games begin!
+[21:39:02 INFO]: BerkayParlarYT issued server command: /ping
+[21:39:03 INFO]: UUID of player OsmannMC is cc34ed9a-3e46-463d-89fb-589a7abccd2a
+[21:39:03 INFO]: UUID of player FoxxHD is 5176d418-a180-4061-9a75-8b257e585be8
+[21:39:03 INFO]: epicherobrine978 issued server command: /ping
+[21:39:03 INFO]: The user doesn't have directly that variable!
+[21:39:03 INFO]: OsmannMC has joined.
+[21:39:03 INFO]: The user doesn't have directly that variable!
+[21:39:03 INFO]: OsmannMC has joined.
+[21:39:03 INFO]: OsmannMC[/24.133.136.27:35548] logged in with entity id 115 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:39:03 INFO]: The user doesn't have directly that variable!
+[21:39:03 INFO]: FoxxHD has joined.
+[21:39:03 INFO]: The user doesn't have directly that variable!
+[21:39:03 INFO]: FoxxHD has joined.
+[21:39:03 INFO]: FoxxHD[/5.12.16.107:54478] logged in with entity id 116 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:39:03 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/5176d418-a180-4061-9a75-8b257e585be8.yml
+[21:39:03 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/cc34ed9a-3e46-463d-89fb-589a7abccd2a.yml
+[21:39:03 INFO]: UUID of player Pyeeee is 2f73799e-946b-4e57-a154-59c640ec2061
+[21:39:03 INFO]: iAnilPvP issued server command: /stats IsmetRG
+[21:39:03 INFO]: The user doesn't have directly that variable!
+[21:39:03 INFO]: Pyeeee has joined.
+[21:39:03 INFO]: The user doesn't have directly that variable!
+[21:39:03 INFO]: Pyeeee has joined.
+[21:39:03 INFO]: Pyeeee[/47.145.148.158:46722] logged in with entity id 117 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:39:03 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/2f73799e-946b-4e57-a154-59c640ec2061.yml
+[21:39:03 INFO]: UUID of player SilvaJqck is 1a8c1813-c77a-4a0b-9d3e-5ea735a4dfd4
+[21:39:03 INFO]: The user doesn't have directly that variable!
+[21:39:03 INFO]: SilvaJqck has joined.
+[21:39:03 INFO]: The user doesn't have directly that variable!
+[21:39:03 INFO]: SilvaJqck has joined.
+[21:39:03 INFO]: SilvaJqck[/73.2.182.222:44067] logged in with entity id 118 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:39:03 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/1a8c1813-c77a-4a0b-9d3e-5ea735a4dfd4.yml
+[21:39:05 INFO]: UUID of player reafy is 00350c4b-4cf3-4e55-be61-7aad70907e7c
+[21:39:05 INFO]: The user doesn't have directly that variable!
+[21:39:05 INFO]: reafy has joined.
+[21:39:05 INFO]: The user doesn't have directly that variable!
+[21:39:05 INFO]: reafy has joined.
+[21:39:05 INFO]: reafy[/37.77.120.11:43050] logged in with entity id 119 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:39:05 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/00350c4b-4cf3-4e55-be61-7aad70907e7c.yml
+[21:39:06 INFO]: [0]epicherobrine978: benimki 97
+[21:39:07 INFO]: UUID of player Deluxx001 is a193c9c5-5732-42c4-ade6-438e9b16af13
+[21:39:07 INFO]: The user doesn't have directly that variable!
+[21:39:07 INFO]: Deluxx001 has joined.
+[21:39:07 INFO]: The user doesn't have directly that variable!
+[21:39:07 INFO]: Deluxx001 has joined.
+[21:39:07 INFO]: Deluxx001[/78.96.217.163:45045] logged in with entity id 120 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:39:07 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/a193c9c5-5732-42c4-ade6-438e9b16af13.yml
+[21:39:07 INFO]: iAnilPvP issued server command: /stats IsmetRG
+[21:39:08 INFO]: [0]OsmannMC: Hi
+[21:39:08 INFO]: [0]FoxxHD: Flurh
+[21:39:10 INFO]: streetdog9 issued server command: /ping
+[21:39:11 INFO]: iAnilPvP issued server command: /Stats
+[21:39:12 INFO]: [0]YouSpitICrit: I get better ping on hive lmao
+[21:39:13 INFO]: [0]reafy: a
+[21:39:14 INFO]: iAnilPvP issued server command: /stats
+[21:39:15 INFO]: UUID of player imAlexRo is a0b8378c-7814-401b-bc3c-65196812923a
+[21:39:15 INFO]: The user doesn't have directly that variable!
+[21:39:15 INFO]: imAlexRo has joined.
+[21:39:15 INFO]: The user doesn't have directly that variable!
+[21:39:15 INFO]: imAlexRo has joined.
+[21:39:15 INFO]: imAlexRo[/109.166.138.207:33255] logged in with entity id 121 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:39:15 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/a0b8378c-7814-401b-bc3c-65196812923a.yml
+[21:39:16 INFO]: [0]streetdog9: 272 ping
+[21:39:17 INFO]: [0]iAnilPvP: .
+[21:39:20 INFO]: [0]Flurh: i get 15ms on hive
+[21:39:20 INFO]: iAnilPvP issued server command: /ping
+[21:39:22 INFO]: [0]SilvaJqck: they need to fooken add a us server
+[21:39:23 INFO]: [NetixPvP] 10 seconds until the games begin!
+[21:39:24 INFO]: [0]SilvaJqck: FFS
+[21:39:24 INFO]: [0]Flurh: and 60ms on here
+[21:39:25 INFO]: [0]BerkayParlarYT: 763 ping :(
+[21:39:26 INFO]: Healeroo issued server command: /ping
+[21:39:28 INFO]: UUID of player Furki_Gaming is 549ce64e-706f-41ec-babb-e07533549d1c
+[21:39:28 INFO]: The user doesn't have directly that variable!
+[21:39:28 INFO]: Furki_Gaming has joined.
+[21:39:28 INFO]: The user doesn't have directly that variable!
+[21:39:28 INFO]: Furki_Gaming has joined.
+[21:39:28 INFO]: Furki_Gaming[/88.246.88.93:44912] logged in with entity id 122 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:39:28 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/549ce64e-706f-41ec-babb-e07533549d1c.yml
+[21:39:29 INFO]: [0]epicherobrine978: benim ping 97
+[21:39:30 INFO]: [NetixPvP] 3 seconds until the games begin!
+[21:39:30 INFO]: [0]Healeroo: 53
+[21:39:30 INFO]: [0]SilvaJqck: 200 ping
+[21:39:31 INFO]: [NetixPvP] 2 seconds until the games begin!
+[21:39:32 INFO]: [NetixPvP] 1 seconds until the games begin!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:33 INFO]: [NetixPvP] 30 seconds until the games begin!
+[21:39:37 INFO]: reafy lost connection: Disconnected
+[21:39:37 INFO]: The user doesn't have directly that variable!
+[21:39:37 INFO]: reafy has left.
+[21:39:37 INFO]: The user doesn't have directly that variable!
+[21:39:37 INFO]: reafy has left.
+[21:39:37 INFO]: OsmannMC issued server command: /ping
+[21:39:39 INFO]: UUID of player coogily is 270737e3-0bf1-4b79-af8a-7c948a2be956
+[21:39:39 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:39:39 INFO]: The user doesn't have directly that variable!
+[21:39:39 INFO]: coogily has joined.
+[21:39:39 INFO]: The user doesn't have directly that variable!
+[21:39:39 INFO]: coogily has joined.
+[21:39:39 INFO]: coogily[/181.112.205.87:48447] logged in with entity id 123 at ([AlaskanVillage] 257.5423148573675, 78.0, 232.45757675166078)
+[21:39:39 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/270737e3-0bf1-4b79-af8a-7c948a2be956.yml
+[21:39:39 INFO]: OsmannMC issued server command: /ping
+[21:39:40 INFO]: Furki_Gaming issued server command: /ping
+[21:39:41 INFO]: OsmannMC issued server command: /ping
+[21:39:43 INFO]: OneRod issued server command: /ping
+[21:39:50 INFO]: [0]Furki_Gaming: 268 PİNG
+[21:39:51 INFO]: [0]coogily: xd
+[21:39:52 INFO]: [0]imAlexRo: pwp
+[21:39:52 INFO]: [0]OneRod: Ro ?
+[21:39:53 INFO]: [0]streetdog9: 272 ping
+[21:39:53 INFO]: [NetixPvP] 10 seconds until the games begin!
+[21:39:53 INFO]: SilvaJqck issued server command: /ping
+[21:39:53 INFO]: [0]imSnakeRo: x2
+[21:39:54 INFO]: SilvaJqck issued server command: /ping
+[21:39:55 INFO]: [0]ViperRO: Nu
+[21:39:55 INFO]: [0]FoxxHD: muta ma
+[21:39:55 INFO]: [0]imAlexRo: da
+[21:39:55 INFO]: streetdog9 issued server command: /ping
+[21:39:55 INFO]: [0]FoxxHD: solr
+[21:39:58 INFO]: [0]SilvaJqck: 202 ping
+[21:39:58 INFO]: [NetixPvP] 5 seconds until the games begin!
+[21:39:59 INFO]: [NetixPvP] 4 seconds until the games begin!
+[21:40:00 INFO]: [NetixPvP] 3 seconds until the games begin!
+[21:40:00 INFO]: [0]FoxxHD: muta ma
+[21:40:01 INFO]: [0]imSnakeRo: go long
+[21:40:01 INFO]: [NetixPvP] 2 seconds until the games begin!
+[21:40:01 INFO]: [0]OneRod: god ping prost
+[21:40:02 INFO]: Flurh issued server command: /ping
+[21:40:02 INFO]: [NetixPvP] 1 seconds until the games begin!
+[21:40:03 INFO]: [0]coogily: 300 píng GG
+[21:40:03 INFO]: [NetixPvP] The game has been started!
+[21:40:05 INFO]: OsmannMC issued server command: /ping
+[21:40:22 INFO]: [NetixPvP] There are [23] tributes remaining.
+[21:40:22 INFO]: [NetixPvP] coogily killed WowRobert
+[21:40:30 INFO]: Flurh issued server command: /ping
+[21:40:35 INFO]: YouSpitICrit issued server command: /fix
+[21:40:40 INFO]: YouSpitICrit issued server command: /fix
+[21:40:41 INFO]: [NetixPvP] There are [22] tributes remaining.
+[21:40:41 INFO]: [NetixPvP] Pulsic killed LEGENND
+[21:40:42 INFO]: [NetixPvP] There are [21] tributes remaining.
+[21:40:42 INFO]: [NetixPvP] ViperRO killed Pulsic
+[21:40:48 INFO]: [NetixPvP] There are [20] tributes remaining.
+[21:40:48 INFO]: [NetixPvP] Flurh killed Healeroo
+[21:40:49 INFO]: [0]FoxxHD: ezz
+[21:40:50 INFO]: [0]SPEC|LEGENND: pulsic misto triggee
+[21:40:51 INFO]: [0]SPEC|LEGENND: pulsic misto trigger
+[21:40:56 INFO]: [0]SPEC|Pulsic: MS
+[21:40:57 INFO]: [NetixPvP] There are [19] tributes remaining.
+[21:40:57 INFO]: [NetixPvP] Pyeeee killed Furki_Gaming
+[21:40:57 INFO]: Healeroo lost connection: Disconnected
+[21:40:57 INFO]: The user doesn't have directly that variable!
+[21:40:57 INFO]: Healeroo has left.
+[21:40:57 INFO]: The user doesn't have directly that variable!
+[21:40:57 INFO]: Healeroo has left.
+[21:41:03 INFO]: [0]SPEC|Furki_Gaming: NİCE HAX
+[21:41:04 INFO]: YouSpitICrit issued server command: /fix
+[21:41:05 INFO]: LEGENND issued server command: /list
+[21:41:05 INFO]: LEGENND issued server command: /gf
+[21:41:06 INFO]: LEGENND issued server command: /pimg
+[21:41:06 INFO]: Furki_Gaming lost connection: Disconnected
+[21:41:06 INFO]: The user doesn't have directly that variable!
+[21:41:06 INFO]: Furki_Gaming has left.
+[21:41:06 INFO]: The user doesn't have directly that variable!
+[21:41:06 INFO]: Furki_Gaming has left.
+[21:41:08 INFO]: LEGENND issued server command: /ping
+[21:41:10 INFO]: [NetixPvP] There are [18] tributes remaining.
+[21:41:10 INFO]: [NetixPvP] coogily killed OsmannMC
+[21:41:11 INFO]: [NetixPvP] There are [17] tributes remaining.
+[21:41:11 INFO]: [NetixPvP] streetdog9 killed Pyeeee
+[21:41:14 INFO]: [NetixPvP] There are [16] tributes remaining.
+[21:41:14 INFO]: [NetixPvP] OneRod killed imSnakeRo
+[21:41:15 INFO]: UUID of player Arakawa is 8acf3425-ff70-47f4-b4d2-e272655e857a
+[21:41:15 INFO]: The user doesn't have directly that variable!
+[21:41:15 INFO]: Arakawa has joined.
+[21:41:15 INFO]: The user doesn't have directly that variable!
+[21:41:15 INFO]: Arakawa has joined.
+[21:41:15 INFO]: Arakawa[/24.133.72.192:34147] logged in with entity id 303 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:41:15 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/8acf3425-ff70-47f4-b4d2-e272655e857a.yml
+[21:41:17 INFO]: WowRobert lost connection: Disconnected
+[21:41:17 INFO]: The user doesn't have directly that variable!
+[21:41:17 INFO]: WowRobert has left.
+[21:41:17 INFO]: The user doesn't have directly that variable!
+[21:41:17 INFO]: WowRobert has left.
+[21:41:21 INFO]: [NetixPvP] There are [15] tributes remaining.
+[21:41:21 INFO]: [NetixPvP] ViperRO killed imAlexRo
+[21:41:24 INFO]: OsmannMC lost connection: Disconnected
+[21:41:24 INFO]: The user doesn't have directly that variable!
+[21:41:24 INFO]: OsmannMC has left.
+[21:41:24 INFO]: The user doesn't have directly that variable!
+[21:41:24 INFO]: OsmannMC has left.
+[21:41:25 INFO]: [NetixPvP] There are [14] tributes remaining.
+[21:41:25 INFO]: [NetixPvP] Flurh killed ImTreyn
+[21:41:25 INFO]: Arakawa lost connection: Disconnected
+[21:41:25 INFO]: The user doesn't have directly that variable!
+[21:41:25 INFO]: Arakawa has left.
+[21:41:25 INFO]: The user doesn't have directly that variable!
+[21:41:25 INFO]: Arakawa has left.
+[21:41:39 INFO]: [NetixPvP] There are [13] tributes remaining.
+[21:41:39 INFO]: [NetixPvP] SilvaJqck killed Mxrcxll
+[21:41:39 INFO]: [0]OneRod: sal kf
+[21:41:41 INFO]: imSnakeRo lost connection: Disconnected
+[21:41:41 INFO]: The user doesn't have directly that variable!
+[21:41:41 INFO]: imSnakeRo has left.
+[21:41:41 INFO]: The user doesn't have directly that variable!
+[21:41:41 INFO]: imSnakeRo has left.
+[21:41:47 INFO]: Pyeeee lost connection: Disconnected
+[21:41:47 INFO]: The user doesn't have directly that variable!
+[21:41:47 INFO]: Pyeeee has left.
+[21:41:47 INFO]: The user doesn't have directly that variable!
+[21:41:47 INFO]: Pyeeee has left.
+[21:41:47 INFO]: OneRod issued server command: /k
+[21:41:49 INFO]: ImTreyn lost connection: Disconnected
+[21:41:49 INFO]: The user doesn't have directly that variable!
+[21:41:49 INFO]: ImTreyn has left.
+[21:41:49 INFO]: The user doesn't have directly that variable!
+[21:41:49 INFO]: ImTreyn has left.
+[21:41:49 INFO]: OneRod issued server command: /l
+[21:41:50 INFO]: [NetixPvP] There are [12] tributes remaining.
+[21:41:50 INFO]: [NetixPvP] SilvaJqck killed FoxxHD
+[21:41:51 INFO]: [NetixPvP] There are [11] tributes remaining.
+[21:41:51 INFO]: [NetixPvP] coogily killed SilvaJqck
+[21:41:52 INFO]: Mxrcxll lost connection: Disconnected
+[21:41:52 INFO]: The user doesn't have directly that variable!
+[21:41:52 INFO]: Mxrcxll has left.
+[21:41:52 INFO]: The user doesn't have directly that variable!
+[21:41:52 INFO]: Mxrcxll has left.
+[21:41:53 INFO]: [0]SPEC|Pulsic: EZZ
+[21:41:53 INFO]: imAlexRo lost connection: Disconnected
+[21:41:53 INFO]: The user doesn't have directly that variable!
+[21:41:53 INFO]: imAlexRo has left.
+[21:41:53 INFO]: The user doesn't have directly that variable!
+[21:41:53 INFO]: imAlexRo has left.
+[21:41:55 INFO]: [0]BerkayParlarYT: bi kılıc atıcak varmı
+[21:41:56 INFO]: [0]SPEC|FoxxHD: stfu randy
+[21:42:00 INFO]: SilvaJqck lost connection: Disconnected
+[21:42:00 INFO]: The user doesn't have directly that variable!
+[21:42:00 INFO]: SilvaJqck has left.
+[21:42:00 INFO]: The user doesn't have directly that variable!
+[21:42:00 INFO]: SilvaJqck has left.
+[21:42:00 INFO]: [0]epicherobrine978: yk
+[21:42:01 INFO]: YouSpitICrit issued server command: /fix
+[21:42:02 INFO]: [0]epicherobrine978: yok
+[21:42:05 INFO]: UUID of player Pyeeee is 2f73799e-946b-4e57-a154-59c640ec2061
+[21:42:05 INFO]: The user doesn't have directly that variable!
+[21:42:05 INFO]: Pyeeee has joined.
+[21:42:05 INFO]: The user doesn't have directly that variable!
+[21:42:05 INFO]: Pyeeee has joined.
+[21:42:05 INFO]: Pyeeee[/47.145.148.158:56174] logged in with entity id 520 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:42:08 INFO]: Pyeeee lost connection: Disconnected
+[21:42:08 INFO]: The user doesn't have directly that variable!
+[21:42:08 INFO]: Pyeeee has left.
+[21:42:08 INFO]: The user doesn't have directly that variable!
+[21:42:08 INFO]: Pyeeee has left.
+[21:42:10 INFO]: [0]YouSpitICrit: I get better ping on hive lmao
+[21:42:13 INFO]: YouSpitICrit issued server command: /fix
+[21:42:21 INFO]: UUID of player OsmannMC is cc34ed9a-3e46-463d-89fb-589a7abccd2a
+[21:42:21 INFO]: The user doesn't have directly that variable!
+[21:42:21 INFO]: OsmannMC has joined.
+[21:42:21 INFO]: The user doesn't have directly that variable!
+[21:42:21 INFO]: OsmannMC has joined.
+[21:42:21 INFO]: OsmannMC[/24.133.136.27:45903] logged in with entity id 557 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:42:21 INFO]: [0]BerkayParlarYT: atma isteyenmi oldu :)
+[21:42:25 INFO]: OsmannMC lost connection: Disconnected
+[21:42:25 INFO]: The user doesn't have directly that variable!
+[21:42:25 INFO]: OsmannMC has left.
+[21:42:25 INFO]: The user doesn't have directly that variable!
+[21:42:25 INFO]: OsmannMC has left.
+[21:42:29 INFO]: [NetixPvP] There are [10] tributes remaining.
+[21:42:29 INFO]: [NetixPvP] ViperRO killed OneRod
+[21:42:31 INFO]: UUID of player FurkanGamer_V2 is 45311316-0fd3-49b0-8237-7496e656daee
+[21:42:31 INFO]: The user doesn't have directly that variable!
+[21:42:31 INFO]: FurkanGamer_V2 has joined.
+[21:42:31 INFO]: The user doesn't have directly that variable!
+[21:42:31 INFO]: FurkanGamer_V2 has joined.
+[21:42:31 INFO]: FurkanGamer_V2[/95.10.201.216:46639] logged in with entity id 596 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:42:31 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/45311316-0fd3-49b0-8237-7496e656daee.yml
+[21:42:40 INFO]: FurkanGamer_V2 lost connection: Disconnected
+[21:42:40 INFO]: The user doesn't have directly that variable!
+[21:42:40 INFO]: FurkanGamer_V2 has left.
+[21:42:40 INFO]: The user doesn't have directly that variable!
+[21:42:40 INFO]: FurkanGamer_V2 has left.
+[21:42:45 INFO]: OneRod lost connection: Disconnected
+[21:42:45 INFO]: The user doesn't have directly that variable!
+[21:42:45 INFO]: OneRod has left.
+[21:42:45 INFO]: The user doesn't have directly that variable!
+[21:42:45 INFO]: OneRod has left.
+[21:42:45 INFO]: UUID of player appsy_brah is f12a9f2b-b2cc-4215-a409-6db529638bcd
+[21:42:45 INFO]: The user doesn't have directly that variable!
+[21:42:45 INFO]: appsy_brah has joined.
+[21:42:45 INFO]: The user doesn't have directly that variable!
+[21:42:45 INFO]: appsy_brah has joined.
+[21:42:45 INFO]: appsy_brah[/188.3.141.186:38029] logged in with entity id 616 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:42:45 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/f12a9f2b-b2cc-4215-a409-6db529638bcd.yml
+[21:42:47 INFO]: [NetixPvP] There are [9] tributes remaining.
+[21:42:47 INFO]: [NetixPvP] Flurh killed YouSpitICrit
+[21:42:50 INFO]: appsy_brah lost connection: Disconnected
+[21:42:50 INFO]: The user doesn't have directly that variable!
+[21:42:50 INFO]: appsy_brah has left.
+[21:42:50 INFO]: The user doesn't have directly that variable!
+[21:42:50 INFO]: appsy_brah has left.
+[21:42:55 INFO]: [NetixPvP] There are [8] tributes remaining.
+[21:42:55 INFO]: [NetixPvP] streetdog9 killed BerkayParlarYT
+[21:42:56 INFO]: YouSpitICrit lost connection: Disconnected
+[21:42:56 INFO]: The user doesn't have directly that variable!
+[21:42:56 INFO]: YouSpitICrit has left.
+[21:42:56 INFO]: The user doesn't have directly that variable!
+[21:42:56 INFO]: YouSpitICrit has left.
+[21:43:00 INFO]: FoxxHD issued server command: /msg Flurh can you give me you skype i'm number 1 fan
+[21:43:04 INFO]: FoxxHD issued server command: /r ?
+[21:43:04 INFO]: FoxxHD issued server command: /r pls
+[21:43:06 INFO]: FoxxHD issued server command: /r i love you
+[21:43:20 INFO]: [NetixPvP] There are [7] tributes remaining.
+[21:43:20 INFO]: [NetixPvP] ViperRO killed coogily
+[21:43:23 INFO]: Flurh issued server command: /r I don't give my skype out
+[21:43:25 INFO]: coogily issued server command: /stats
+[21:43:30 INFO]: FoxxHD issued server command: /r ok
+[21:43:33 INFO]: FoxxHD issued server command: /r np
+[21:43:35 INFO]: FoxxHD issued server command: /r :9
+[21:43:36 INFO]: coogily lost connection: Disconnected
+[21:43:36 INFO]: The user doesn't have directly that variable!
+[21:43:36 INFO]: coogily has left.
+[21:43:36 INFO]: The user doesn't have directly that variable!
+[21:43:36 INFO]: coogily has left.
+[21:43:40 INFO]: [NetixPvP] There are [6] tributes remaining.
+[21:43:40 INFO]: [NetixPvP] Eraxe killed Deluxx001
+[21:43:41 INFO]: UUID of player WowRobert is b4ce16f3-82aa-4331-b59c-bd41241f0544
+[21:43:41 INFO]: The user doesn't have directly that variable!
+[21:43:41 INFO]: WowRobert has joined.
+[21:43:41 INFO]: The user doesn't have directly that variable!
+[21:43:41 INFO]: WowRobert has joined.
+[21:43:41 INFO]: WowRobert[/188.26.42.108:60881] logged in with entity id 760 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:43:41 INFO]: FoxxHD issued server command: /r i sell account flurh?
+[21:43:46 INFO]: UUID of player ZioZen is a8423594-4b4a-4997-9854-bbaa0076536b
+[21:43:46 INFO]: The user doesn't have directly that variable!
+[21:43:46 INFO]: ZioZen has joined.
+[21:43:46 INFO]: The user doesn't have directly that variable!
+[21:43:46 INFO]: ZioZen has joined.
+[21:43:46 INFO]: ZioZen[/37.77.123.182:60122] logged in with entity id 767 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:43:46 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/a8423594-4b4a-4997-9854-bbaa0076536b.yml
+[21:43:54 INFO]: ViperRO issued server command: /gf
+[21:43:55 INFO]: ZioZen lost connection: Disconnected
+[21:43:55 INFO]: The user doesn't have directly that variable!
+[21:43:55 INFO]: ZioZen has left.
+[21:43:55 INFO]: The user doesn't have directly that variable!
+[21:43:55 INFO]: ZioZen has left.
+[21:43:58 INFO]: UUID of player Danny201919 is eb3600cb-8b11-4248-b24b-3a23f65b73d2
+[21:43:58 INFO]: The user doesn't have directly that variable!
+[21:43:58 INFO]: Danny201919 has joined.
+[21:43:58 INFO]: The user doesn't have directly that variable!
+[21:43:58 INFO]: Danny201919 has joined.
+[21:43:58 INFO]: Danny201919[/82.222.151.34:58173] logged in with entity id 805 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:43:58 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/eb3600cb-8b11-4248-b24b-3a23f65b73d2.yml
+[21:44:01 INFO]: UUID of player MuminArrowV2 is a99baf5c-bcf8-4089-bd1e-1047f4f05ec5
+[21:44:01 INFO]: The user doesn't have directly that variable!
+[21:44:01 INFO]: MuminArrowV2 has joined.
+[21:44:01 INFO]: The user doesn't have directly that variable!
+[21:44:01 INFO]: MuminArrowV2 has joined.
+[21:44:01 INFO]: MuminArrowV2[/62.248.92.222:35437] logged in with entity id 815 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:44:01 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/a99baf5c-bcf8-4089-bd1e-1047f4f05ec5.yml
+[21:44:01 INFO]: Danny201919 lost connection: Disconnected
+[21:44:01 INFO]: The user doesn't have directly that variable!
+[21:44:01 INFO]: Danny201919 has left.
+[21:44:01 INFO]: The user doesn't have directly that variable!
+[21:44:01 INFO]: Danny201919 has left.
+[21:44:08 INFO]: UUID of player OsmannMC is cc34ed9a-3e46-463d-89fb-589a7abccd2a
+[21:44:08 INFO]: The user doesn't have directly that variable!
+[21:44:08 INFO]: OsmannMC has joined.
+[21:44:08 INFO]: The user doesn't have directly that variable!
+[21:44:08 INFO]: OsmannMC has joined.
+[21:44:08 INFO]: OsmannMC[/24.133.136.27:42010] logged in with entity id 832 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:44:09 INFO]: UUID of player Mosco06 is 534bd8d9-b97c-4bbd-a583-4bb78fbbfe07
+[21:44:09 INFO]: The user doesn't have directly that variable!
+[21:44:09 INFO]: Mosco06 has joined.
+[21:44:09 INFO]: The user doesn't have directly that variable!
+[21:44:09 INFO]: Mosco06 has joined.
+[21:44:09 INFO]: Mosco06[/94.121.163.48:52806] logged in with entity id 833 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:44:09 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/534bd8d9-b97c-4bbd-a583-4bb78fbbfe07.yml
+[21:44:15 INFO]: OsmannMC lost connection: Disconnected
+[21:44:15 INFO]: The user doesn't have directly that variable!
+[21:44:15 INFO]: OsmannMC has left.
+[21:44:15 INFO]: The user doesn't have directly that variable!
+[21:44:15 INFO]: OsmannMC has left.
+[21:44:16 INFO]: MuminArrowV2 lost connection: Disconnected
+[21:44:16 INFO]: The user doesn't have directly that variable!
+[21:44:16 INFO]: MuminArrowV2 has left.
+[21:44:16 INFO]: The user doesn't have directly that variable!
+[21:44:16 INFO]: MuminArrowV2 has left.
+[21:44:20 INFO]: UUID of player ZioZen is a8423594-4b4a-4997-9854-bbaa0076536b
+[21:44:20 INFO]: The user doesn't have directly that variable!
+[21:44:20 INFO]: ZioZen has joined.
+[21:44:20 INFO]: The user doesn't have directly that variable!
+[21:44:20 INFO]: ZioZen has joined.
+[21:44:20 INFO]: ZioZen[/37.77.123.182:60960] logged in with entity id 835 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:44:23 INFO]: Mosco06 issued server command: /bounty
+[21:44:23 INFO]: Deluxx001 lost connection: Disconnected
+[21:44:23 INFO]: The user doesn't have directly that variable!
+[21:44:23 INFO]: Deluxx001 has left.
+[21:44:23 INFO]: The user doesn't have directly that variable!
+[21:44:23 INFO]: Deluxx001 has left.
+[21:44:25 INFO]: BerkayParlarYT lost connection: Disconnected
+[21:44:25 INFO]: The user doesn't have directly that variable!
+[21:44:25 INFO]: BerkayParlarYT has left.
+[21:44:25 INFO]: The user doesn't have directly that variable!
+[21:44:25 INFO]: BerkayParlarYT has left.
+[21:44:33 INFO]: Mosco06 issued server command: /bounty iAnilPvP 1
+[21:44:38 INFO]: Mosco06 issued server command: /bounty iAnilPvP 10
+[21:44:42 INFO]: Mosco06 issued server command: /bounty iAnilPvP 11
+[21:45:38 INFO]: UUID of player FrozenGaps is 755f7a16-1ef4-4ab2-b1f4-ca5043ceadb9
+[21:45:38 INFO]: The user doesn't have directly that variable!
+[21:45:38 INFO]: FrozenGaps has joined.
+[21:45:38 INFO]: The user doesn't have directly that variable!
+[21:45:38 INFO]: FrozenGaps has joined.
+[21:45:38 INFO]: FrozenGaps[/69.126.36.123:42012] logged in with entity id 940 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:45:38 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/755f7a16-1ef4-4ab2-b1f4-ca5043ceadb9.yml
+[21:45:47 INFO]: [NetixPvP] There are [5] tributes remaining.
+[21:45:47 INFO]: [NetixPvP] Eraxe killed Flurh
+[21:45:50 INFO]: FrozenGaps lost connection: Disconnected
+[21:45:50 INFO]: The user doesn't have directly that variable!
+[21:45:50 INFO]: FrozenGaps has left.
+[21:45:50 INFO]: The user doesn't have directly that variable!
+[21:45:50 INFO]: FrozenGaps has left.
+[21:45:53 INFO]: streetdog9 issued server command: /ping
+[21:45:57 INFO]: ZioZen lost connection: Disconnected
+[21:45:57 INFO]: The user doesn't have directly that variable!
+[21:45:57 INFO]: ZioZen has left.
+[21:45:57 INFO]: The user doesn't have directly that variable!
+[21:45:57 INFO]: ZioZen has left.
+[21:45:59 INFO]: [NetixPvP] There are [4] tributes remaining.
+[21:45:59 INFO]: [NetixPvP] ViperRO killed iAnilPvP
+[21:46:02 INFO]: Flurh lost connection: Disconnected
+[21:46:02 INFO]: The user doesn't have directly that variable!
+[21:46:02 INFO]: Flurh has left.
+[21:46:02 INFO]: The user doesn't have directly that variable!
+[21:46:02 INFO]: Flurh has left.
+[21:46:03 INFO]: UUID of player MC_Pika is c7cc9338-5614-428b-a97d-a92165845e8e
+[21:46:03 INFO]: The user doesn't have directly that variable!
+[21:46:03 INFO]: MC_Pika has joined.
+[21:46:03 INFO]: The user doesn't have directly that variable!
+[21:46:03 INFO]: MC_Pika has joined.
+[21:46:03 INFO]: MC_Pika[/72.235.150.142:59363] logged in with entity id 1026 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:03 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/c7cc9338-5614-428b-a97d-a92165845e8e.yml
+[21:46:07 INFO]: MC_Pika lost connection: Disconnected
+[21:46:07 INFO]: The user doesn't have directly that variable!
+[21:46:07 INFO]: MC_Pika has left.
+[21:46:07 INFO]: The user doesn't have directly that variable!
+[21:46:07 INFO]: MC_Pika has left.
+[21:46:10 INFO]: iAnilPvP lost connection: Disconnected
+[21:46:10 INFO]: The user doesn't have directly that variable!
+[21:46:10 INFO]: iAnilPvP has left.
+[21:46:10 INFO]: The user doesn't have directly that variable!
+[21:46:10 INFO]: iAnilPvP has left.
+[21:46:11 INFO]: Mosco06 lost connection: Disconnected
+[21:46:11 INFO]: The user doesn't have directly that variable!
+[21:46:11 INFO]: Mosco06 has left.
+[21:46:11 INFO]: The user doesn't have directly that variable!
+[21:46:11 INFO]: Mosco06 has left.
+[21:46:14 INFO]: UUID of player GamingHard is a6171976-d57a-4556-be56-6987215863fe
+[21:46:14 INFO]: The user doesn't have directly that variable!
+[21:46:14 INFO]: GamingHard has joined.
+[21:46:14 INFO]: The user doesn't have directly that variable!
+[21:46:14 INFO]: GamingHard has joined.
+[21:46:14 INFO]: GamingHard[/188.215.5.190:32773] logged in with entity id 1031 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:14 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/a6171976-d57a-4556-be56-6987215863fe.yml
+[21:46:21 INFO]: GamingHard lost connection: Disconnected
+[21:46:21 INFO]: The user doesn't have directly that variable!
+[21:46:21 INFO]: GamingHard has left.
+[21:46:21 INFO]: The user doesn't have directly that variable!
+[21:46:21 INFO]: GamingHard has left.
+[21:46:31 INFO]: UUID of player VapeEXE is 38b12d42-d919-40f7-8481-8ce7c18c266c
+[21:46:31 INFO]: The user doesn't have directly that variable!
+[21:46:31 INFO]: VapeEXE has joined.
+[21:46:31 INFO]: The user doesn't have directly that variable!
+[21:46:31 INFO]: VapeEXE has joined.
+[21:46:31 INFO]: VapeEXE[/86.44.61.17:51526] logged in with entity id 1049 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:31 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/38b12d42-d919-40f7-8481-8ce7c18c266c.yml
+[21:46:33 INFO]: UUID of player gqbuuu is c8c148a0-4b8c-412e-b195-074fa759b6f7
+[21:46:33 INFO]: The user doesn't have directly that variable!
+[21:46:33 INFO]: gqbuuu has joined.
+[21:46:33 INFO]: The user doesn't have directly that variable!
+[21:46:33 INFO]: gqbuuu has joined.
+[21:46:33 INFO]: gqbuuu[/185.11.234.185:45027] logged in with entity id 1050 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:37 INFO]: UUID of player GamingHard is a6171976-d57a-4556-be56-6987215863fe
+[21:46:37 INFO]: The user doesn't have directly that variable!
+[21:46:37 INFO]: GamingHard has joined.
+[21:46:37 INFO]: The user doesn't have directly that variable!
+[21:46:37 INFO]: GamingHard has joined.
+[21:46:37 INFO]: GamingHard[/188.215.5.190:50439] logged in with entity id 1054 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:38 INFO]: UUID of player SanalCekcu is 4fee082a-e8ee-40a3-921f-e55cca45585e
+[21:46:38 INFO]: The user doesn't have directly that variable!
+[21:46:38 INFO]: SanalCekcu has joined.
+[21:46:38 INFO]: The user doesn't have directly that variable!
+[21:46:38 INFO]: SanalCekcu has joined.
+[21:46:38 INFO]: SanalCekcu[/176.40.254.82:45169] logged in with entity id 1055 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:38 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/4fee082a-e8ee-40a3-921f-e55cca45585e.yml
+[21:46:39 INFO]: UUID of player eddyAk47 is d024f475-437b-48a8-b4d9-462b00394e45
+[21:46:39 INFO]: The user doesn't have directly that variable!
+[21:46:39 INFO]: eddyAk47 has joined.
+[21:46:39 INFO]: The user doesn't have directly that variable!
+[21:46:39 INFO]: eddyAk47 has joined.
+[21:46:39 INFO]: eddyAk47[/77.58.66.52:43899] logged in with entity id 1056 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:43 INFO]: [0]SPEC|eddyAk47: gggggdgdgdgdg
+[21:46:43 INFO]: SanalCekcu issued server command: /d
+[21:46:45 INFO]: VapeEXE lost connection: Disconnected
+[21:46:45 INFO]: The user doesn't have directly that variable!
+[21:46:45 INFO]: VapeEXE has left.
+[21:46:45 INFO]: The user doesn't have directly that variable!
+[21:46:45 INFO]: VapeEXE has left.
+[21:46:49 INFO]: SanalCekcu lost connection: Disconnected
+[21:46:49 INFO]: The user doesn't have directly that variable!
+[21:46:49 INFO]: SanalCekcu has left.
+[21:46:49 INFO]: The user doesn't have directly that variable!
+[21:46:49 INFO]: SanalCekcu has left.
+[21:46:50 INFO]: UUID of player Flurh is df4d53d5-56bf-4dce-a4f8-4b102b11a0bf
+[21:46:50 INFO]: The user doesn't have directly that variable!
+[21:46:50 INFO]: Flurh has joined.
+[21:46:50 INFO]: The user doesn't have directly that variable!
+[21:46:50 INFO]: Flurh has joined.
+[21:46:50 INFO]: Flurh[/94.174.227.242:58919] logged in with entity id 1068 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:51 INFO]: eddyAk47 lost connection: Disconnected
+[21:46:51 INFO]: The user doesn't have directly that variable!
+[21:46:51 INFO]: eddyAk47 has left.
+[21:46:51 INFO]: The user doesn't have directly that variable!
+[21:46:51 INFO]: eddyAk47 has left.
+[21:46:51 INFO]: UUID of player Healeroo is d0aab181-2135-41a1-81d0-1087f6eee0cb
+[21:46:51 INFO]: The user doesn't have directly that variable!
+[21:46:51 INFO]: Healeroo has joined.
+[21:46:51 INFO]: The user doesn't have directly that variable!
+[21:46:51 INFO]: Healeroo has joined.
+[21:46:51 INFO]: Healeroo[/78.1.152.103:42005] logged in with entity id 1069 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:52 INFO]: gqbuuu issued server command: /manuadd
+[21:46:52 INFO]: UUID of player eddyAk47 is d024f475-437b-48a8-b4d9-462b00394e45
+[21:46:52 INFO]: The user doesn't have directly that variable!
+[21:46:52 INFO]: eddyAk47 has joined.
+[21:46:52 INFO]: The user doesn't have directly that variable!
+[21:46:52 INFO]: eddyAk47 has joined.
+[21:46:52 INFO]: eddyAk47[/77.58.66.52:47257] logged in with entity id 1070 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:56 INFO]: UUID of player VapeEXE is 38b12d42-d919-40f7-8481-8ce7c18c266c
+[21:46:56 INFO]: The user doesn't have directly that variable!
+[21:46:56 INFO]: VapeEXE has joined.
+[21:46:56 INFO]: The user doesn't have directly that variable!
+[21:46:56 INFO]: VapeEXE has joined.
+[21:46:56 INFO]: VapeEXE[/86.44.61.17:60602] logged in with entity id 1074 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:56 INFO]: Flurh issued server command: /l
+[21:46:56 INFO]: [0]SPEC|eddyAk47: gqbuuu
+[21:46:56 INFO]: UUID of player ZioZen is a8423594-4b4a-4997-9854-bbaa0076536b
+[21:46:56 INFO]: The user doesn't have directly that variable!
+[21:46:56 INFO]: ZioZen has joined.
+[21:46:56 INFO]: The user doesn't have directly that variable!
+[21:46:56 INFO]: ZioZen has joined.
+[21:46:56 INFO]: ZioZen[/37.77.123.182:34337] logged in with entity id 1075 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:46:58 INFO]: gqbuuu issued server command: /manuadd eddyAk47 srmod
+[21:46:58 INFO]: Healeroo lost connection: Disconnected
+[21:46:58 INFO]: The user doesn't have directly that variable!
+[21:46:58 INFO]: Healeroo has left.
+[21:46:58 INFO]: The user doesn't have directly that variable!
+[21:46:58 INFO]: Healeroo has left.
+[21:47:01 INFO]: ZioZen lost connection: Disconnected
+[21:47:01 INFO]: The user doesn't have directly that variable!
+[21:47:01 INFO]: ZioZen has left.
+[21:47:01 INFO]: The user doesn't have directly that variable!
+[21:47:01 INFO]: ZioZen has left.
+[21:47:05 INFO]: [0]epicherobrine978: nerdesiniz
+[21:47:11 INFO]: VapeEXE lost connection: Disconnected
+[21:47:11 INFO]: The user doesn't have directly that variable!
+[21:47:11 INFO]: VapeEXE has left.
+[21:47:11 INFO]: The user doesn't have directly that variable!
+[21:47:11 INFO]: VapeEXE has left.
+[21:47:22 INFO]: [0]SPEC|eddyAk47: gsgsgs
+[21:47:26 INFO]: GroupManager - INFO -  Data files refreshed.
+[21:47:37 INFO]: UUID of player BotMaster3000 is ce738668-73f6-4e29-86af-328a62cc2764
+[21:47:37 INFO]: The user doesn't have directly that variable!
+[21:47:37 INFO]: BotMaster3000 has joined.
+[21:47:37 INFO]: The user doesn't have directly that variable!
+[21:47:37 INFO]: BotMaster3000 has joined.
+[21:47:37 INFO]: BotMaster3000[/5.14.95.159:42006] logged in with entity id 1106 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:47:37 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/ce738668-73f6-4e29-86af-328a62cc2764.yml
+[21:47:42 INFO]: BotMaster3000 lost connection: Disconnected
+[21:47:42 INFO]: The user doesn't have directly that variable!
+[21:47:42 INFO]: BotMaster3000 has left.
+[21:47:42 INFO]: The user doesn't have directly that variable!
+[21:47:42 INFO]: BotMaster3000 has left.
+[21:47:47 INFO]: UUID of player BerkayParlarYT is 16914bd2-d2f0-4ea1-8216-717c57bb49d4
+[21:47:47 INFO]: The user doesn't have directly that variable!
+[21:47:47 INFO]: BerkayParlarYT has joined.
+[21:47:47 INFO]: The user doesn't have directly that variable!
+[21:47:47 INFO]: BerkayParlarYT has joined.
+[21:47:47 INFO]: BerkayParlarYT[/78.184.134.178:49999] logged in with entity id 1114 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:47:52 INFO]: BerkayParlarYT lost connection: Disconnected
+[21:47:52 INFO]: The user doesn't have directly that variable!
+[21:47:52 INFO]: BerkayParlarYT has left.
+[21:47:52 INFO]: The user doesn't have directly that variable!
+[21:47:52 INFO]: BerkayParlarYT has left.
+[21:48:03 INFO]: gqbuuu lost connection: Disconnected
+[21:48:03 INFO]: The user doesn't have directly that variable!
+[21:48:03 INFO]: gqbuuu has left.
+[21:48:03 INFO]: The user doesn't have directly that variable!
+[21:48:03 INFO]: gqbuuu has left.
+[21:48:17 INFO]: UUID of player Mxrcxll is 22513139-c099-4c8e-9ab2-9847c20752e7
+[21:48:17 INFO]: The user doesn't have directly that variable!
+[21:48:17 INFO]: Mxrcxll has joined.
+[21:48:17 INFO]: The user doesn't have directly that variable!
+[21:48:17 INFO]: Mxrcxll has joined.
+[21:48:17 INFO]: Mxrcxll[/75.64.105.207:42002] logged in with entity id 1115 at ([AlaskanVillage] 257.03565267977194, 79.78033872482041, 256.6451597773485)
+[21:48:21 INFO]: Mxrcxll lost connection: Disconnected
+[21:48:21 INFO]: The user doesn't have directly that variable!
+[21:48:21 INFO]: Mxrcxll has left.
+[21:48:21 INFO]: The user doesn't have directly that variable!
+[21:48:21 INFO]: Mxrcxll has left.
+[21:48:23 INFO]: eddyAk47 issued server command: /fly
+[21:48:33 INFO]: [NetixPvP] There are [3] tributes remaining.
+[21:48:33 INFO]: [NetixPvP] ViperRO killed Eraxe
+[21:48:34 INFO]: [NetixPvP] 1 minutes until the deathmatch begins!
+[21:48:34 INFO]: [0]SPEC|Flurh: gf
+[21:48:36 INFO]: [0]SPEC|FoxxHD: =]]]
+[21:48:38 INFO]: [0]SPEC|Pulsic: GF
+[21:48:38 INFO]: [0]SPEC|Pulsic: GG
+[21:48:42 INFO]: [0]SPEC|Eraxe: lol
+[21:48:44 INFO]: [0]SPEC|FoxxHD: Eraxe hack
+[21:48:45 INFO]: [0]SPEC|FoxxHD: -.-
+[21:48:46 INFO]: [0]SPEC|FoxxHD: :/
+[21:48:48 INFO]: [0]SPEC|Eraxe: =]]
+[21:48:48 INFO]: [0]SPEC|Flurh: he dont
+[21:48:51 INFO]: [NetixPvP] There are [2] tributes remaining.
+[21:48:51 INFO]: [NetixPvP] ViperRO killed streetdog9
+[21:48:53 INFO]: GamingHard issued server command: /gmc
+[21:48:53 INFO]: §7» §7GamingHard §7was denied access to command.
+[21:48:54 INFO]: [0]SPEC|streetdog9: gg
+[21:48:56 INFO]: [0]SPEC|streetdog9: hax
+[21:49:04 INFO]: [NetixPvP] 30 seconds until the deathmatch begins!
+[21:49:04 INFO]: streetdog9 lost connection: Disconnected
+[21:49:04 INFO]: The user doesn't have directly that variable!
+[21:49:04 INFO]: streetdog9 has left.
+[21:49:04 INFO]: The user doesn't have directly that variable!
+[21:49:04 INFO]: streetdog9 has left.
+[21:49:05 INFO]: GamingHard lost connection: Disconnected
+[21:49:05 INFO]: The user doesn't have directly that variable!
+[21:49:05 INFO]: GamingHard has left.
+[21:49:05 INFO]: The user doesn't have directly that variable!
+[21:49:05 INFO]: GamingHard has left.
+[21:49:06 INFO]: [0]SPEC|Flurh: lol people SaltE
+[21:49:09 INFO]: [0]SPEC|FoxxHD: gmann
+[21:49:18 INFO]: LEGENND issued server command: /list
+[21:49:24 INFO]: [NetixPvP] 10 seconds until the deathmatch begins!
+[21:49:29 INFO]: [NetixPvP] 5 seconds until the deathmatch begins!
+[21:49:30 INFO]: [NetixPvP] 4 seconds until the deathmatch begins!
+[21:49:31 INFO]: [NetixPvP] 3 seconds until the deathmatch begins!
+[21:49:32 INFO]: [NetixPvP] 2 seconds until the deathmatch begins!
+[21:49:33 INFO]: [NetixPvP] 1 seconds until the deathmatch begins!
+[21:49:34 INFO]: [NetixPvP] The deathmatch has been started. You have some seconds to prepare!
+[21:49:34 INFO]: [NetixPvP] 10 seconds until final mach begins!
+[21:49:40 INFO]: [NetixPvP] 4 seconds until final mach begins!
+[21:49:41 INFO]: [NetixPvP] 3 seconds until final mach begins!
+[21:49:42 INFO]: [NetixPvP] 2 seconds until final mach begins!
+[21:49:43 INFO]: [NetixPvP] 1 seconds until final mach begins!
+[21:49:44 INFO]: [NetixPvP] The final mach has been started!
+[21:49:47 INFO]: [0]SPEC|Flurh: randy in dm lmao
+[21:49:52 INFO]: [0]SPEC|FoxxHD: ik
+[21:49:53 INFO]: [0]SPEC|FoxxHD: :))
+[21:50:02 INFO]: FoxxHD issued server command: /r why not give skype
+[21:50:06 INFO]: [0]SPEC|Flurh: and hacks
+[21:50:09 INFO]: [0]SPEC|Eraxe: Randy likes pvp
+[21:50:12 INFO]: [0]SPEC|FoxxHD: =]]
+[21:50:13 INFO]: [0]SPEC|FoxxHD: yes
+[21:50:14 INFO]: [NetixPvP] There are [1] tributes remaining.
+[21:50:14 INFO]: [NetixPvP] Congratulations to ViperRO who won the game!
+[21:50:14 INFO]: [NetixPvP] ViperRO killed epicherobrine978
+[21:50:16 INFO]: [0]SPEC|Flurh: lol
+[21:50:17 INFO]: [0]ViperRO: gg!
+[21:50:18 INFO]: [0]SPEC|LEGENND: gg
+[21:50:19 INFO]: [NetixPvP] 10 seconds until server restarts!
+[21:50:19 INFO]: [0]SPEC|Pulsic: epic
+[21:50:21 INFO]: [0]SPEC|Eraxe: gg
+[21:50:25 INFO]: [0]SPEC|FoxxHD: yes
+[21:50:26 INFO]: [NetixPvP] 3 seconds until server restarts!
+[21:50:27 INFO]: [NetixPvP] 2 seconds until server restarts!
+[21:50:28 INFO]: [0]SPEC|Pulsic: same teams
+[21:50:28 INFO]: [NetixPvP] 1 seconds until server restarts!
+[21:50:28 INFO]: FoxxHD issued server command: /r why not give skype?
+[21:50:29 INFO]: [AdvancedSurvivalGames] Restarting game...
+[21:50:29 INFO]: [AdvancedSurvivalGames] Auto detection bungeecord server's name disabled. Check you config and be sure that server currently has more than 1 player
+[21:50:29 INFO]: [AdvancedSurvivalGames] Randomly chosen maps for voting: [SGHighway, ValleysideUniversity, GreenGrass, Chernobyl2015, AlaskanVillage]
+[21:50:29 INFO]: [NetixPvP] 120 seconds until the games begin!
+[21:50:30 INFO]: epicherobrine978 lost connection: Disconnected
+[21:50:30 INFO]: The user doesn't have directly that variable!
+[21:50:30 INFO]: epicherobrine978 has left.
+[21:50:30 INFO]: The user doesn't have directly that variable!
+[21:50:30 INFO]: epicherobrine978 has left.
+[21:50:34 INFO]: Flurh issued server command: /v 2
+[21:50:35 INFO]: [0]Flurh: v 2
+[21:50:45 INFO]: WowRobert issued server command: /v 5
+[21:50:50 INFO]: [0]ViperRO: Flurh nice cape man
+[21:50:51 INFO]: [0]Eraxe: v 2
+[21:50:52 INFO]: FoxxHD issued server command: /msg Flurh give me you're skype i'm best fan
+[21:50:54 INFO]: FoxxHD issued server command: /r :)
+[21:50:59 INFO]: [0]Flurh: lol
+[21:51:04 INFO]: UUID of player KayraYT is f559b24a-49bf-42bd-b205-1ddffadbeb2b
+[21:51:04 INFO]: The user doesn't have directly that variable!
+[21:51:04 INFO]: KayraYT has joined.
+[21:51:04 INFO]: The user doesn't have directly that variable!
+[21:51:04 INFO]: KayraYT has joined.
+[21:51:04 INFO]: KayraYT[/85.109.31.6:37468] logged in with entity id 1370 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:51:04 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/f559b24a-49bf-42bd-b205-1ddffadbeb2b.yml
+[21:51:06 INFO]: [0]FoxxHD: Flurh the best
+[21:51:12 INFO]: [0]Flurh: nope
+[21:51:12 INFO]: [0]FoxxHD: da
+[21:51:16 INFO]: eddyAk47 lost connection: Disconnected
+[21:51:16 INFO]: The user doesn't have directly that variable!
+[21:51:16 INFO]: eddyAk47 has left.
+[21:51:16 INFO]: The user doesn't have directly that variable!
+[21:51:16 INFO]: eddyAk47 has left.
+[21:51:17 INFO]: [0]FoxxHD: yes
+[21:51:23 INFO]: KayraYT lost connection: Disconnected
+[21:51:23 INFO]: The user doesn't have directly that variable!
+[21:51:23 INFO]: KayraYT has left.
+[21:51:23 INFO]: The user doesn't have directly that variable!
+[21:51:23 INFO]: KayraYT has left.
+[21:51:23 INFO]: [0]Eraxe: Flurh is the best player
+[21:51:25 INFO]: UUID of player AstroJumper is 5a5faed2-498b-440e-a24c-4e87de72a459
+[21:51:25 INFO]: The user doesn't have directly that variable!
+[21:51:25 INFO]: AstroJumper has joined.
+[21:51:25 INFO]: The user doesn't have directly that variable!
+[21:51:25 INFO]: AstroJumper has joined.
+[21:51:25 INFO]: AstroJumper[/70.188.56.18:55284] logged in with entity id 1371 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:51:26 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/5a5faed2-498b-440e-a24c-4e87de72a459.yml
+[21:51:29 INFO]: AstroJumper issued server command: /v 5
+[21:51:29 INFO]: [NetixPvP] 60 seconds until the games begin!
+[21:51:30 INFO]: [0]Flurh: I don't even play this pfft
+[21:51:30 INFO]: [0]Pulsic: Flurh is a cunt :)
+[21:51:34 INFO]: [0]Flurh: :)
+[21:51:35 INFO]: [0]Pulsic: jk
+[21:51:35 INFO]: [0]Pulsic: xd
+[21:51:43 INFO]: [0]Flurh: You are what you eat!
+[21:51:48 INFO]: [0]FoxxHD: yes
+[21:51:52 INFO]: [0]Pulsic: :)))
+[21:51:59 INFO]: -------- World Settings For [ValleysideUniversity] --------
+[21:51:59 INFO]: Mob Spawn Range: 4
+[21:51:59 INFO]: Anti X-Ray: true
+[21:51:59 INFO]:        Engine Mode: 1
+[21:51:59 INFO]:        Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:51:59 INFO]:        Replace Blocks: [1, 5]
+[21:51:59 INFO]: Nerfing mobs spawned from spawners: false
+[21:51:59 INFO]: Cactus Growth Modifier: 100%
+[21:51:59 INFO]: Cane Growth Modifier: 100%
+[21:51:59 INFO]: Melon Growth Modifier: 100%
+[21:51:59 INFO]: Mushroom Growth Modifier: 100%
+[21:51:59 INFO]: Pumpkin Growth Modifier: 100%
+[21:51:59 INFO]: Sapling Growth Modifier: 100%
+[21:51:59 INFO]: Wheat Growth Modifier: 100%
+[21:51:59 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:51:59 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:51:59 INFO]: Alternative Hopper Ticking: false
+[21:51:59 INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:51:59 INFO]: Random Lighting Updates: false
+[21:51:59 INFO]: Structure Info Saving: true
+[21:51:59 INFO]: Sending up to 10 chunks per packet
+[21:51:59 INFO]: Max Entity Collisions: 8
+[21:51:59 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:51:59 INFO]: Max TNT Explosions: 100
+[21:51:59 INFO]: View Distance: 6
+[21:51:59 INFO]: Chunks to Grow per Tick: 650
+[21:51:59 INFO]: Clear tick list: false
+[21:51:59 INFO]: Experience Merge Radius: 3.0
+[21:51:59 INFO]: Item Despawn Rate: 6000
+[21:51:59 INFO]: Item Merge Radius: 2.5
+[21:51:59 INFO]: Arrow Despawn Rate: 1200
+[21:51:59 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:51:59 INFO]: Zombie Aggressive Towards Villager: true
+[21:51:59 INFO]: Preparing start region for level 1 (Seed: 0)
+[21:52:00 INFO]: CHOSEN MAP: ValleysideUniversity
+[21:52:00 INFO]: [NetixPvP] The ValleysideUniversity has been chosen!
+[21:52:00 INFO]: SELECTED MAP'S SPAWN POINTS: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+[21:52:00 INFO]: SELECTED MAP'S DEATHMATCH SPAWN POINTS: [3, 1, 2, 3]
+[21:52:00 INFO]: [NetixPvP] 30 seconds until the games begin!
+[21:52:00 INFO]: UUID of player xR3ktrHD is 6ff6d315-c5ba-43af-8fba-e5d34d1769b1
+[21:52:00 INFO]: The user doesn't have directly that variable!
+[21:52:00 INFO]: xR3ktrHD has joined.
+[21:52:00 INFO]: The user doesn't have directly that variable!
+[21:52:00 INFO]: xR3ktrHD has joined.
+[21:52:00 INFO]: xR3ktrHD[/46.2.244.157:37125] logged in with entity id 1404 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:52:00 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/6ff6d315-c5ba-43af-8fba-e5d34d1769b1.yml
+[21:52:04 INFO]: AstroJumper lost connection: Disconnected
+[21:52:04 INFO]: The user doesn't have directly that variable!
+[21:52:04 INFO]: AstroJumper has left.
+[21:52:04 INFO]: The user doesn't have directly that variable!
+[21:52:04 INFO]: AstroJumper has left.
+[21:52:07 INFO]: xR3ktrHD issued server command: /v 5
+[21:52:14 INFO]: UUID of player Variath is 665ad764-c0e4-4e6a-868f-1fd7c7fc07c2
+[21:52:14 INFO]: The user doesn't have directly that variable!
+[21:52:14 INFO]: Variath has joined.
+[21:52:14 INFO]: The user doesn't have directly that variable!
+[21:52:14 INFO]: Variath has joined.
+[21:52:14 INFO]: Variath[/70.188.56.18:47218] logged in with entity id 1405 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:52:14 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/665ad764-c0e4-4e6a-868f-1fd7c7fc07c2.yml
+[21:52:14 INFO]: UUID of player Cuds is 657c65af-721b-4a47-93ca-75fdcf10564a
+[21:52:14 INFO]: The user doesn't have directly that variable!
+[21:52:14 INFO]: Cuds has joined.
+[21:52:14 INFO]: The user doesn't have directly that variable!
+[21:52:14 INFO]: Cuds has joined.
+[21:52:14 INFO]: Cuds[/89.127.3.114:60220] logged in with entity id 1406 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:52:14 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/657c65af-721b-4a47-93ca-75fdcf10564a.yml
+[21:52:16 INFO]: Variath issued server command: /v 5
+[21:52:18 INFO]: Flurh issued server command: /l
+[21:52:20 INFO]: [NetixPvP] 10 seconds until the games begin!
+[21:52:23 INFO]: [0]xR3ktrHD: s
+[21:52:24 INFO]: UUID of player PinkyRae is acc59152-b25e-4c39-b08d-d8b3b3716bfd
+[21:52:24 INFO]: The user doesn't have directly that variable!
+[21:52:24 INFO]: PinkyRae has joined.
+[21:52:24 INFO]: The user doesn't have directly that variable!
+[21:52:24 INFO]: PinkyRae has joined.
+[21:52:24 INFO]: PinkyRae[/5.250.223.207:50559] logged in with entity id 1407 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:52:24 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/acc59152-b25e-4c39-b08d-d8b3b3716bfd.yml
+[21:52:27 INFO]: [NetixPvP] 3 seconds until the games begin!
+[21:52:28 INFO]: [NetixPvP] 2 seconds until the games begin!
+[21:52:29 INFO]: [NetixPvP] 1 seconds until the games begin!
+[21:52:29 INFO]: UUID of player Maudalmannen is 75f84183-e7b2-4f6b-9f6f-c6807e243c18
+[21:52:29 INFO]: The user doesn't have directly that variable!
+[21:52:29 INFO]: Maudalmannen has joined.
+[21:52:29 INFO]: The user doesn't have directly that variable!
+[21:52:29 INFO]: Maudalmannen has joined.
+[21:52:29 INFO]: Maudalmannen[/92.221.167.136:59491] logged in with entity id 1408 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[21:52:29 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/75f84183-e7b2-4f6b-9f6f-c6807e243c18.yml
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:30 INFO]: [NetixPvP] 30 seconds until the games begin!
+[21:52:33 INFO]: Maudalmannen issued server command: /v 5
+[21:52:40 INFO]: [0]PinkyRae: hile olanin anasini sikem
+[21:52:41 INFO]: [0]PinkyRae: amindan
+[21:52:42 INFO]: UUID of player OmeReyizz is 0684cbd1-3904-4b92-a0a0-e990c33e3feb
+[21:52:42 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[21:52:42 INFO]: The user doesn't have directly that variable!
+[21:52:42 INFO]: OmeReyizz has joined.
+[21:52:42 INFO]: The user doesn't have directly that variable!
+[21:52:42 INFO]: OmeReyizz has joined.
+[21:52:42 INFO]: OmeReyizz[/78.171.159.100:46081] logged in with entity id 1409 at ([ValleysideUniversity] 325.4868122843088, 5.0, 114.50993497830018)
+[21:52:42 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/0684cbd1-3904-4b92-a0a0-e990c33e3feb.yml
+[21:52:44 INFO]: [0]Pulsic: uite un idiot
+[21:52:49 INFO]: [0]xR3ktrHD: Aynen :D
+[21:52:49 INFO]: [0]FoxxHD: ma ta
+[21:52:50 INFO]: [NetixPvP] 10 seconds until the games begin!
+[21:52:50 INFO]: [0]PinkyRae: dildo sikin
+[21:52:52 INFO]: [0]FoxxHD: e idioata
+[21:52:54 INFO]: Flurh issued server command: /ping
+[21:52:55 INFO]: [0]FoxxHD: nageb
+[21:52:55 INFO]: [NetixPvP] 5 seconds until the games begin!
+[21:52:56 INFO]: [NetixPvP] 4 seconds until the games begin!
+[21:52:57 INFO]: [NetixPvP] 3 seconds until the games begin!
+[21:52:58 INFO]: [0]Pulsic: die in hell germans
+[21:52:58 INFO]: [NetixPvP] 2 seconds until the games begin!
+[21:52:59 INFO]: [NetixPvP] 1 seconds until the games begin!
+[21:53:00 INFO]: [NetixPvP] The game has been started!
+[21:53:02 INFO]: [0]xR3ktrHD: s
+[21:53:14 INFO]: [NetixPvP] There are [12] tributes remaining.
+[21:53:14 INFO]: [NetixPvP] Maudalmannen killed Cuds
+[21:53:18 INFO]: Cuds lost connection: Disconnected
+[21:53:18 INFO]: The user doesn't have directly that variable!
+[21:53:18 INFO]: Cuds has left.
+[21:53:18 INFO]: The user doesn't have directly that variable!
+[21:53:18 INFO]: Cuds has left.
+[21:53:25 INFO]: [NetixPvP] There are [11] tributes remaining.
+[21:53:25 INFO]: [NetixPvP] ViperRO killed PinkyRae
+[21:53:25 INFO]: OmeReyizz lost connection: Disconnected
+[21:53:25 INFO]: [NetixPvP] OmeReyizz has been pushed out from the game!
+[21:53:25 INFO]: The user doesn't have directly that variable!
+[21:53:25 INFO]: OmeReyizz has left.
+[21:53:25 INFO]: The user doesn't have directly that variable!
+[21:53:25 INFO]: OmeReyizz has left.
+[21:53:31 INFO]: PinkyRae lost connection: Disconnected
+[21:53:31 INFO]: The user doesn't have directly that variable!
+[21:53:31 INFO]: PinkyRae has left.
+[21:53:31 INFO]: The user doesn't have directly that variable!
+[21:53:31 INFO]: PinkyRae has left.
+[21:54:12 INFO]: [0]ViperRO: pls
+[21:54:13 INFO]: [0]ViperRO: i rec
+[21:54:15 INFO]: [0]Eraxe: scz
+[21:54:16 INFO]: [0]ViperRO: 8k subs
+[21:54:17 INFO]: [0]Eraxe: nu pot
+[21:54:19 INFO]: [0]ViperRO: ba da
+[21:54:31 INFO]: [0]ViperRO: deschide fmm
+[21:54:31 INFO]: [0]Eraxe: stati acolo
+[21:54:35 INFO]: [0]Eraxe: bine da nu da
+[21:54:40 INFO]: [NetixPvP] There are [9] tributes remaining.
+[21:54:40 INFO]: [NetixPvP] Eraxe killed Variath
+[21:54:41 INFO]: [NetixPvP] There are [8] tributes remaining.
+[21:54:41 INFO]: [NetixPvP] LEGENND killed Eraxe
+[21:54:43 INFO]: [0]SPEC|Variath: LOL
+[21:54:44 INFO]: Flurh issued server command: /ping
+[21:54:44 INFO]: [0]Pulsic: gg
+[21:54:47 INFO]: [0]ViperRO: mor
+[21:54:49 INFO]: [0]ViperRO: =]]
+[21:54:51 INFO]: Variath lost connection: Disconnected
+[21:54:51 INFO]: The user doesn't have directly that variable!
+[21:54:51 INFO]: Variath has left.
+[21:54:51 INFO]: The user doesn't have directly that variable!
+[21:54:51 INFO]: Variath has left.
+[21:54:51 INFO]: [0]ViperRO: ty dude
+[21:54:53 INFO]: [0]FoxxHD: lool
+[21:55:19 INFO]: [0]LEGENND: ciaie
+[21:55:20 INFO]: [0]ViperRO: legend
+[21:55:20 INFO]: [0]LEGENND: coaie
+[21:55:22 INFO]: [0]LEGENND: mi-a dat kick
+[21:55:23 INFO]: [0]ViperRO: intra iar
+[21:55:35 INFO]: [0]ViperRO: hai pe skype
+[21:55:43 INFO]: [0]LEGENND: nu pot sal pornesc
+[21:55:48 INFO]: [0]LEGENND: ca-mi ia foc
+[21:55:49 INFO]: [NetixPvP] There are [7] tributes remaining.
+[21:55:49 INFO]: [NetixPvP] Pulsic killed FoxxHD
+[21:55:49 INFO]: [0]ViperRO: serios
+[21:55:49 INFO]: [0]LEGENND: pc-ul
+[21:55:51 INFO]: [0]LEGENND: ca-mi ia foc
+[21:55:51 INFO]: [0]Pulsic: gg
+[21:55:52 INFO]: [0]Pulsic: wp
+[21:55:52 INFO]: [0]ViperRO: incerca
+[21:55:52 INFO]: Eraxe issued server command: /msg Maudalmannen go
+[21:55:53 INFO]: FoxxHD issued server command: /msg Pulsic nice hack
+[21:55:55 INFO]: [0]Flurh: spawn
+[21:55:55 INFO]: [0]LEGENND: nu coaie
+[21:55:55 INFO]: Eraxe issued server command: /msg Maudalmannen go
+[21:55:55 INFO]: FoxxHD issued server command: /r :?/
+[21:55:57 INFO]: [0]LEGENND: intra iara
+[21:55:58 INFO]: [0]ViperRO: hai coaie
+[21:56:01 INFO]: [0]Flurh: to2 spawn
+[21:56:03 INFO]: Eraxe issued server command: /msg Maudalmannen go fight them
+[21:56:04 INFO]: Eraxe issued server command: /msg Maudalmannen go fight them
+[21:56:05 INFO]: Eraxe issued server command: /msg Maudalmannen go fight them
+[21:56:15 INFO]: Eraxe issued server command: /msg Maudalmannen go fight them
+[21:56:19 INFO]: [0]LEGENND: intra iara
+[21:56:24 INFO]: Maudalmannen issued server command: /mssg Eraxe no?
+[21:56:35 INFO]: [0]Pulsic: juj
+[21:56:38 INFO]: [0]Flurh: lol
+[21:56:53 INFO]: [0]xR3ktrHD: s
+[21:57:14 INFO]: UUID of player Linkem is 86df5b25-992e-4830-82ac-e7b14689b1d1
+[21:57:14 INFO]: The user doesn't have directly that variable!
+[21:57:14 INFO]: Linkem has joined.
+[21:57:14 INFO]: The user doesn't have directly that variable!
+[21:57:14 INFO]: Linkem has joined.
+[21:57:14 INFO]: Linkem[/176.32.26.69:44800] logged in with entity id 1654 at ([ValleysideUniversity] 317.3790557933907, 6.0, 129.51016694868824)
+[21:57:14 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/86df5b25-992e-4830-82ac-e7b14689b1d1.yml
+[21:57:17 INFO]: [NetixPvP] There are [6] tributes remaining.
+[21:57:17 INFO]: [NetixPvP] Flurh killed Pulsic
+[21:57:22 INFO]: Linkem lost connection: Disconnected
+[21:57:22 INFO]: The user doesn't have directly that variable!
+[21:57:22 INFO]: Linkem has left.
+[21:57:22 INFO]: The user doesn't have directly that variable!
+[21:57:22 INFO]: Linkem has left.
+[21:57:26 INFO]: GroupManager - INFO -  Data files refreshed.
+[21:57:35 INFO]: [0]xR3ktrHD: s
+[21:57:46 INFO]: [0]xR3ktrHD: Lag ?
+[21:58:00 INFO]: UUID of player VoidPowerYT is 4abf0dc2-a569-42ce-adcc-c1e85eada012
+[21:58:00 INFO]: The user doesn't have directly that variable!
+[21:58:00 INFO]: VoidPowerYT has joined.
+[21:58:00 INFO]: The user doesn't have directly that variable!
+[21:58:00 INFO]: VoidPowerYT has joined.
+[21:58:00 INFO]: VoidPowerYT[/212.252.97.75:42015] logged in with entity id 1708 at ([ValleysideUniversity] 317.3790557933907, 6.0, 129.51016694868824)
+[21:58:00 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/4abf0dc2-a569-42ce-adcc-c1e85eada012.yml
+[21:58:00 INFO]: [NetixPvP] There are [5] tributes remaining.
+[21:58:00 INFO]: [NetixPvP] ViperRO killed Flurh
+[21:58:01 INFO]: [NetixPvP] There are [4] tributes remaining.
+[21:58:01 INFO]: [NetixPvP] Maudalmannen killed ViperRO
+[21:58:04 INFO]: [0]xR3ktrHD: Lag ?
+[21:58:05 INFO]: VoidPowerYT lost connection: Disconnected
+[21:58:05 INFO]: The user doesn't have directly that variable!
+[21:58:05 INFO]: VoidPowerYT has left.
+[21:58:05 INFO]: The user doesn't have directly that variable!
+[21:58:05 INFO]: VoidPowerYT has left.
+[21:58:10 INFO]: [0]SPEC|ViperRO: gg
+[21:58:10 INFO]: [0]SPEC|Flurh: omg
+[21:58:17 INFO]: [0]SPEC|Eraxe: lol
+[21:58:24 INFO]: UUID of player Syweoir is 2af20b36-4cc2-411d-8835-184d681973bd
+[21:58:24 INFO]: The user doesn't have directly that variable!
+[21:58:24 INFO]: Syweoir has joined.
+[21:58:24 INFO]: The user doesn't have directly that variable!
+[21:58:24 INFO]: Syweoir has joined.
+[21:58:24 INFO]: Syweoir[/89.164.228.57:37863] logged in with entity id 1807 at ([ValleysideUniversity] 317.3790557933907, 6.0, 129.51016694868824)
+[21:58:24 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/2af20b36-4cc2-411d-8835-184d681973bd.yml
+[21:58:24 INFO]: UUID of player MemoKeroRS is dcddb434-1090-4e9c-b71b-11e24ddd7994
+[21:58:24 INFO]: The user doesn't have directly that variable!
+[21:58:24 INFO]: MemoKeroRS has joined.
+[21:58:24 INFO]: The user doesn't have directly that variable!
+[21:58:24 INFO]: MemoKeroRS has joined.
+[21:58:24 INFO]: MemoKeroRS[/94.55.215.186:53411] logged in with entity id 1808 at ([ValleysideUniversity] 317.3790557933907, 6.0, 129.51016694868824)
+[21:58:24 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/dcddb434-1090-4e9c-b71b-11e24ddd7994.yml
+[21:58:26 INFO]: [0]SPEC|Flurh: people just target lmao
+[21:58:32 INFO]: [0]SPEC|MemoKeroRS: asd
+[21:58:52 INFO]: Flurh lost connection: Disconnected
+[21:58:52 INFO]: The user doesn't have directly that variable!
+[21:58:52 INFO]: Flurh has left.
+[21:58:52 INFO]: The user doesn't have directly that variable!
+[21:58:52 INFO]: Flurh has left.
+[21:59:13 INFO]: FoxxHD lost connection: Disconnected
+[21:59:13 INFO]: The user doesn't have directly that variable!
+[21:59:13 INFO]: FoxxHD has left.
+[21:59:13 INFO]: The user doesn't have directly that variable!
+[21:59:13 INFO]: FoxxHD has left.
+[21:59:19 INFO]: ViperRO issued server command: /msg legennd l
+[21:59:19 INFO]: ViperRO issued server command: /msg legennd l
+[21:59:20 INFO]: ViperRO issued server command: /msg legennd l
+[21:59:20 INFO]: ViperRO issued server command: /msg legennd l
+[21:59:20 INFO]: [NetixPvP] There are [3] tributes remaining.
+[21:59:20 INFO]: [NetixPvP] Maudalmannen killed LEGENND
+[21:59:21 INFO]: ViperRO issued server command: /msg legennd l
+[21:59:21 INFO]: [NetixPvP] 1 minutes until the deathmatch begins!
+[21:59:21 INFO]: ViperRO issued server command: /msg legennd l
+[21:59:21 INFO]: ViperRO issued server command: /msg legennd l
+[21:59:22 INFO]: ViperRO issued server command: /msg legennd l
+[21:59:23 INFO]: [0]Maudalmannen: gdf
+[21:59:23 INFO]: [0]SPEC|Eraxe: gg
+[21:59:34 INFO]: Pulsic lost connection: Disconnected
+[21:59:34 INFO]: The user doesn't have directly that variable!
+[21:59:34 INFO]: Pulsic has left.
+[21:59:34 INFO]: The user doesn't have directly that variable!
+[21:59:34 INFO]: Pulsic has left.
+[21:59:38 INFO]: [NetixPvP] There are [2] tributes remaining.
+[21:59:38 INFO]: [NetixPvP] Maudalmannen killed WowRobert
+[21:59:39 INFO]: ViperRO lost connection: Disconnected
+[21:59:39 INFO]: The user doesn't have directly that variable!
+[21:59:39 INFO]: ViperRO has left.
+[21:59:39 INFO]: The user doesn't have directly that variable!
+[21:59:39 INFO]: ViperRO has left.
+[21:59:42 INFO]: Eraxe lost connection: Disconnected
+[21:59:42 INFO]: The user doesn't have directly that variable!
+[21:59:42 INFO]: Eraxe has left.
+[21:59:42 INFO]: The user doesn't have directly that variable!
+[21:59:42 INFO]: Eraxe has left.
+[21:59:43 INFO]: LEGENND lost connection: Disconnected
+[21:59:43 INFO]: The user doesn't have directly that variable!
+[21:59:43 INFO]: LEGENND has left.
+[21:59:43 INFO]: The user doesn't have directly that variable!
+[21:59:43 INFO]: LEGENND has left.
+[21:59:48 INFO]: UUID of player LEGENND is 7ecf107e-3495-4de2-8cab-ed90ae62d5f7
+[21:59:48 INFO]: The user doesn't have directly that variable!
+[21:59:48 INFO]: LEGENND has joined.
+[21:59:48 INFO]: The user doesn't have directly that variable!
+[21:59:48 INFO]: LEGENND has joined.
+[21:59:48 INFO]: LEGENND[/5.14.215.166:35843] logged in with entity id 1947 at ([ValleysideUniversity] 317.3790557933907, 6.0, 129.51016694868824)
+[21:59:49 INFO]: WowRobert lost connection: Disconnected
+[21:59:49 INFO]: The user doesn't have directly that variable!
+[21:59:49 INFO]: WowRobert has left.
+[21:59:49 INFO]: The user doesn't have directly that variable!
+[21:59:49 INFO]: WowRobert has left.
+[21:59:51 INFO]: [NetixPvP] 30 seconds until the deathmatch begins!
+[21:59:59 INFO]: LEGENND lost connection: Disconnected
+[21:59:59 INFO]: The user doesn't have directly that variable!
+[21:59:59 INFO]: LEGENND has left.
+[21:59:59 INFO]: The user doesn't have directly that variable!
+[21:59:59 INFO]: LEGENND has left.
+[22:00:11 INFO]: [NetixPvP] 10 seconds until the deathmatch begins!
+[22:00:16 INFO]: [NetixPvP] 5 seconds until the deathmatch begins!
+[22:00:17 INFO]: [0]xR3ktrHD: İtems Me ?
+[22:00:17 INFO]: [NetixPvP] 4 seconds until the deathmatch begins!
+[22:00:18 INFO]: [NetixPvP] 3 seconds until the deathmatch begins!
+[22:00:19 INFO]: [NetixPvP] 2 seconds until the deathmatch begins!
+[22:00:20 INFO]: [NetixPvP] 1 seconds until the deathmatch begins!
+[22:00:20 INFO]: UUID of player Mxrcxll is 22513139-c099-4c8e-9ab2-9847c20752e7
+[22:00:20 INFO]: The user doesn't have directly that variable!
+[22:00:20 INFO]: Mxrcxll has joined.
+[22:00:20 INFO]: The user doesn't have directly that variable!
+[22:00:20 INFO]: Mxrcxll has joined.
+[22:00:20 INFO]: Mxrcxll[/75.64.105.207:53986] logged in with entity id 1966 at ([ValleysideUniversity] 317.3790557933907, 6.0, 129.51016694868824)
+[22:00:21 INFO]: [NetixPvP] The deathmatch has been started. You have some seconds to prepare!
+[22:00:21 INFO]: [NetixPvP] 10 seconds until final mach begins!
+[22:00:24 INFO]: Mxrcxll lost connection: Disconnected
+[22:00:24 INFO]: The user doesn't have directly that variable!
+[22:00:24 INFO]: Mxrcxll has left.
+[22:00:24 INFO]: The user doesn't have directly that variable!
+[22:00:24 INFO]: Mxrcxll has left.
+[22:00:27 INFO]: [NetixPvP] 4 seconds until final mach begins!
+[22:00:28 INFO]: [NetixPvP] 3 seconds until final mach begins!
+[22:00:29 INFO]: [NetixPvP] 2 seconds until final mach begins!
+[22:00:30 INFO]: [NetixPvP] 1 seconds until final mach begins!
+[22:00:31 INFO]: [NetixPvP] The final mach has been started!
+[22:00:45 INFO]: UUID of player Mr_Jefff is ecf42300-e765-4b1b-92ab-5235b79ed9bb
+[22:00:45 INFO]: The user doesn't have directly that variable!
+[22:00:45 INFO]: Mr_Jefff has joined.
+[22:00:45 INFO]: The user doesn't have directly that variable!
+[22:00:45 INFO]: Mr_Jefff has joined.
+[22:00:45 INFO]: Mr_Jefff[/78.160.130.54:47624] logged in with entity id 1982 at ([ValleysideUniversity] 317.3790557933907, 6.0, 129.51016694868824)
+[22:00:45 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/ecf42300-e765-4b1b-92ab-5235b79ed9bb.yml
+[22:00:54 INFO]: [NetixPvP] There are [1] tributes remaining.
+[22:00:54 INFO]: [NetixPvP] Congratulations to Maudalmannen who won the game!
+[22:00:54 INFO]: [NetixPvP] Maudalmannen killed xR3ktrHD
+[22:00:56 INFO]: xR3ktrHD lost connection: Disconnected
+[22:00:56 INFO]: The user doesn't have directly that variable!
+[22:00:56 INFO]: xR3ktrHD has left.
+[22:00:56 INFO]: The user doesn't have directly that variable!
+[22:00:56 INFO]: xR3ktrHD has left.
+[22:00:57 INFO]: [0]Maudalmannen: YES!!
+[22:00:59 INFO]: [NetixPvP] 10 seconds until server restarts!
+[22:01:01 INFO]: [0]Maudalmannen: first game win xD
+[22:01:05 INFO]: [0]Maudalmannen: MCSG FINALLY
+[22:01:06 INFO]: [NetixPvP] 3 seconds until server restarts!
+[22:01:07 INFO]: [NetixPvP] 2 seconds until server restarts!
+[22:01:07 INFO]: Mr_Jefff issued server command: /bounty
+[22:01:08 INFO]: [NetixPvP] 1 seconds until server restarts!
+[22:01:09 INFO]: [AdvancedSurvivalGames] Restarting game...
+[22:01:09 INFO]: [AdvancedSurvivalGames] Auto detection bungeecord server's name disabled. Check you config and be sure that server currently has more than 1 player
+[22:01:09 INFO]: [AdvancedSurvivalGames] Randomly chosen maps for voting: [Turbulence, DemonsBreeze, SurvivalGames4, ValleysideUniversity, Chernobyl2015]
+[22:01:09 INFO]: [NetixPvP] 120 seconds until the games begin!
+[22:01:16 INFO]: Mr_Jefff issued server command: /vote 4
+[22:01:17 INFO]: Maudalmannen issued server command: /v 3
+[22:01:17 INFO]: UUID of player MuroBasqan is dd8f8bdf-64a6-492e-bfc4-407793cc95d6
+[22:01:17 INFO]: The user doesn't have directly that variable!
+[22:01:17 INFO]: MuroBasqan has joined.
+[22:01:17 INFO]: The user doesn't have directly that variable!
+[22:01:17 INFO]: MuroBasqan has joined.
+[22:01:17 INFO]: MuroBasqan[/5.250.223.207:34471] logged in with entity id 2120 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:01:17 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/dd8f8bdf-64a6-492e-bfc4-407793cc95d6.yml
+[22:01:21 INFO]: [0]Mr_Jefff: vote 4 pls
+[22:01:26 INFO]: UUID of player WowRobert is b4ce16f3-82aa-4331-b59c-bd41241f0544
+[22:01:26 INFO]: The user doesn't have directly that variable!
+[22:01:26 INFO]: WowRobert has joined.
+[22:01:26 INFO]: The user doesn't have directly that variable!
+[22:01:26 INFO]: WowRobert has joined.
+[22:01:26 INFO]: WowRobert[/188.26.42.108:58187] logged in with entity id 2121 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:01:27 INFO]: UUID of player AhmetFeteve is a9a78f18-712f-4281-a2aa-e924f10da679
+[22:01:27 INFO]: The user doesn't have directly that variable!
+[22:01:27 INFO]: AhmetFeteve has joined.
+[22:01:27 INFO]: The user doesn't have directly that variable!
+[22:01:27 INFO]: AhmetFeteve has joined.
+[22:01:27 INFO]: AhmetFeteve[/88.246.222.1:36753] logged in with entity id 2122 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:01:27 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/a9a78f18-712f-4281-a2aa-e924f10da679.yml
+[22:01:28 INFO]: [0]Maudalmannen: v 3
+[22:01:36 INFO]: UUID of player ToggledClick is 03b09481-1963-4ca9-b8ac-9cb335682578
+[22:01:36 INFO]: The user doesn't have directly that variable!
+[22:01:36 INFO]: ToggledClick has joined.
+[22:01:36 INFO]: The user doesn't have directly that variable!
+[22:01:36 INFO]: ToggledClick has joined.
+[22:01:36 INFO]: ToggledClick[/82.79.22.232:42005] logged in with entity id 2123 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:01:36 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/03b09481-1963-4ca9-b8ac-9cb335682578.yml
+[22:01:36 INFO]: AhmetFeteve issued server command: /v 3
+[22:01:41 INFO]: Maudalmannen issued server command: /stats
+[22:01:44 INFO]: UUID of player Reyizberk is e1c65143-8228-4e3a-a6f7-6fb6dc5cccb5
+[22:01:44 INFO]: The user doesn't have directly that variable!
+[22:01:44 INFO]: Reyizberk has joined.
+[22:01:44 INFO]: The user doesn't have directly that variable!
+[22:01:44 INFO]: Reyizberk has joined.
+[22:01:44 INFO]: Reyizberk[/92.45.153.145:46556] logged in with entity id 2124 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:01:44 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/e1c65143-8228-4e3a-a6f7-6fb6dc5cccb5.yml
+[22:01:44 INFO]: Maudalmannen issued server command: /rec
+[22:01:45 INFO]: UUID of player XidilHD_YT is 9c1f3607-eee7-48a8-82dc-bc15cc108004
+[22:01:45 INFO]: The user doesn't have directly that variable!
+[22:01:45 INFO]: XidilHD_YT has joined.
+[22:01:45 INFO]: The user doesn't have directly that variable!
+[22:01:45 INFO]: XidilHD_YT has joined.
+[22:01:45 INFO]: XidilHD_YT[/31.206.147.96:48039] logged in with entity id 2125 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:01:45 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/9c1f3607-eee7-48a8-82dc-bc15cc108004.yml
+[22:01:46 INFO]: ToggledClick lost connection: Disconnected
+[22:01:46 INFO]: The user doesn't have directly that variable!
+[22:01:46 INFO]: ToggledClick has left.
+[22:01:46 INFO]: The user doesn't have directly that variable!
+[22:01:46 INFO]: ToggledClick has left.
+[22:01:48 INFO]: Maudalmannen issued server command: /stats
+[22:01:50 INFO]: UUID of player ToggledClick is 03b09481-1963-4ca9-b8ac-9cb335682578
+[22:01:50 INFO]: The user doesn't have directly that variable!
+[22:01:50 INFO]: ToggledClick has joined.
+[22:01:50 INFO]: The user doesn't have directly that variable!
+[22:01:50 INFO]: ToggledClick has joined.
+[22:01:50 INFO]: ToggledClick[/82.79.22.232:39661] logged in with entity id 2126 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:01:53 INFO]: [0]MemoKeroRS: ahmet
+[22:01:54 INFO]: [0]MemoKeroRS: wtf
+[22:01:55 INFO]: [0]AhmetFeteve: evt
+[22:01:56 INFO]: Maudalmannen issued server command: /rec Maudalmannen
+[22:01:57 INFO]: XidilHD_YT lost connection: Disconnected
+[22:01:57 INFO]: The user doesn't have directly that variable!
+[22:01:57 INFO]: XidilHD_YT has left.
+[22:01:57 INFO]: The user doesn't have directly that variable!
+[22:01:57 INFO]: XidilHD_YT has left.
+[22:02:00 INFO]: [0]MemoKeroRS: sl,n ayno cape aynı
+[22:02:01 INFO]: [0]AhmetFeteve: kimsin _?
+[22:02:05 INFO]: UUID of player gqbuuu is c8c148a0-4b8c-412e-b195-074fa759b6f7
+[22:02:05 INFO]: The user doesn't have directly that variable!
+[22:02:05 INFO]: gqbuuu has joined.
+[22:02:05 INFO]: The user doesn't have directly that variable!
+[22:02:05 INFO]: gqbuuu has joined.
+[22:02:05 INFO]: gqbuuu[/185.11.234.185:52061] logged in with entity id 2127 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:02:08 INFO]: [0]AhmetFeteve: gqbuuu
+[22:02:09 INFO]: [NetixPvP] 60 seconds until the games begin!
+[22:02:11 INFO]: [0]gqbuuu: ?
+[22:02:13 INFO]: [0]Mr_Jefff: gqbuuu hi :)
+[22:02:15 INFO]: [0]gqbuuu: hi
+[22:02:16 INFO]: [0]MuroBasqan: welcome
+[22:02:18 INFO]: [0]MemoKeroRS: gqbuuu give my vp pls
+[22:02:22 INFO]: [0]Maudalmannen: someone is recing herE?
+[22:02:23 INFO]: [0]Mr_Jefff: when is new lobbys come
+[22:02:26 INFO]: [0]AhmetFeteve: gqbuuu QUUN_V2 MY Frien ı'm trial moderatörs !
+[22:02:30 INFO]: UUID of player AlmightyOG is 32cc9a16-c4d9-42d7-8104-6dce3a2ef78e
+[22:02:30 INFO]: The user doesn't have directly that variable!
+[22:02:30 INFO]: AlmightyOG has joined.
+[22:02:30 INFO]: The user doesn't have directly that variable!
+[22:02:30 INFO]: AlmightyOG has joined.
+[22:02:30 INFO]: AlmightyOG[/81.213.189.25:33459] logged in with entity id 2128 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:02:30 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/32cc9a16-c4d9-42d7-8104-6dce3a2ef78e.yml
+[22:02:30 INFO]: UUID of player Carina2001 is b2e0cecd-898a-49e4-a439-04404aab6a50
+[22:02:30 INFO]: The user doesn't have directly that variable!
+[22:02:30 INFO]: Carina2001 has joined.
+[22:02:30 INFO]: The user doesn't have directly that variable!
+[22:02:30 INFO]: Carina2001 has joined.
+[22:02:30 INFO]: Carina2001[/94.176.66.161:55793] logged in with entity id 2129 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:02:30 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/b2e0cecd-898a-49e4-a439-04404aab6a50.yml
+[22:02:34 INFO]: UUID of player zPiidi is 9e331ada-8842-49cb-9eb4-eb4ec4477235
+[22:02:34 INFO]: The user doesn't have directly that variable!
+[22:02:34 INFO]: zPiidi has joined.
+[22:02:34 INFO]: The user doesn't have directly that variable!
+[22:02:34 INFO]: zPiidi has joined.
+[22:02:34 INFO]: zPiidi[/94.233.148.222:42009] logged in with entity id 2130 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:02:34 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/9e331ada-8842-49cb-9eb4-eb4ec4477235.yml
+[22:02:36 INFO]: [0]AlmightyOG: &6 sa
+[22:02:38 INFO]: Maudalmannen issued server command: /friend add ggbuuu
+[22:02:39 INFO]: [0]MemoKeroRS: gqbuuu give my vip pls
+[22:02:39 INFO]: -------- World Settings For [SurvivalGames4] --------
+[22:02:39 INFO]: Mob Spawn Range: 4
+[22:02:39 INFO]: Anti X-Ray: true
+[22:02:39 INFO]:        Engine Mode: 1
+[22:02:39 INFO]:        Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:02:39 INFO]:        Replace Blocks: [1, 5]
+[22:02:39 INFO]: Nerfing mobs spawned from spawners: false
+[22:02:39 INFO]: Cactus Growth Modifier: 100%
+[22:02:39 INFO]: Cane Growth Modifier: 100%
+[22:02:39 INFO]: Melon Growth Modifier: 100%
+[22:02:39 INFO]: Mushroom Growth Modifier: 100%
+[22:02:39 INFO]: Pumpkin Growth Modifier: 100%
+[22:02:39 INFO]: Sapling Growth Modifier: 100%
+[22:02:39 INFO]: Wheat Growth Modifier: 100%
+[22:02:39 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:02:39 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:02:39 INFO]: Alternative Hopper Ticking: false
+[22:02:39 INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:02:39 INFO]: Random Lighting Updates: false
+[22:02:39 INFO]: Structure Info Saving: true
+[22:02:39 INFO]: Sending up to 10 chunks per packet
+[22:02:39 INFO]: Max Entity Collisions: 8
+[22:02:39 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:02:39 INFO]: Max TNT Explosions: 100
+[22:02:39 INFO]: View Distance: 6
+[22:02:39 INFO]: Chunks to Grow per Tick: 650
+[22:02:39 INFO]: Clear tick list: false
+[22:02:39 INFO]: Experience Merge Radius: 3.0
+[22:02:39 INFO]: Item Despawn Rate: 6000
+[22:02:39 INFO]: Item Merge Radius: 2.5
+[22:02:39 INFO]: Arrow Despawn Rate: 1200
+[22:02:39 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:02:39 INFO]: Zombie Aggressive Towards Villager: true
+[22:02:39 INFO]: Preparing start region for level 1 (Seed: 341687286)
+[22:02:40 INFO]: CHOSEN MAP: SurvivalGames4
+[22:02:40 INFO]: [NetixPvP] The SurvivalGames4 has been chosen!
+[22:02:40 INFO]: SELECTED MAP'S SPAWN POINTS: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+[22:02:40 INFO]: SELECTED MAP'S DEATHMATCH SPAWN POINTS: [2, 3, 1, 2, 3]
+[22:02:40 INFO]: [NetixPvP] 30 seconds until the games begin!
+[22:02:40 INFO]: UUID of player RedShooter is b3e1ccaa-3024-4e20-8837-877723a49bc4
+[22:02:40 INFO]: The user doesn't have directly that variable!
+[22:02:40 INFO]: RedShooter has joined.
+[22:02:40 INFO]: The user doesn't have directly that variable!
+[22:02:40 INFO]: RedShooter has joined.
+[22:02:40 INFO]: RedShooter[/212.253.171.10:44678] logged in with entity id 2147 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:02:40 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/b3e1ccaa-3024-4e20-8837-877723a49bc4.yml
+[22:02:40 INFO]: UUID of player Xezani is 2063a4d7-d2d1-4214-aeaf-f40775f4a055
+[22:02:40 INFO]: The user doesn't have directly that variable!
+[22:02:40 INFO]: Xezani has joined.
+[22:02:40 INFO]: The user doesn't have directly that variable!
+[22:02:40 INFO]: Xezani has joined.
+[22:02:40 INFO]: Xezani[/154.20.203.106:42145] logged in with entity id 2148 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:02:40 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/2063a4d7-d2d1-4214-aeaf-f40775f4a055.yml
+[22:02:41 INFO]: UUID of player YouSpitICrit is 3e35dddd-6b66-4960-9098-7a0fc122e640
+[22:02:41 INFO]: The user doesn't have directly that variable!
+[22:02:41 INFO]: YouSpitICrit has joined.
+[22:02:41 INFO]: The user doesn't have directly that variable!
+[22:02:41 INFO]: YouSpitICrit has joined.
+[22:02:41 INFO]: YouSpitICrit[/76.188.9.255:48299] logged in with entity id 2149 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:02:41 INFO]: Maudalmannen issued server command: /help
+[22:02:46 INFO]: UUID of player Ben_010 is f6d39091-cfd1-41af-b1ad-0f10883110f4
+[22:02:46 INFO]: The user doesn't have directly that variable!
+[22:02:46 INFO]: Ben_010 has joined.
+[22:02:46 INFO]: The user doesn't have directly that variable!
+[22:02:46 INFO]: Ben_010 has joined.
+[22:02:46 INFO]: Ben_010[/85.101.192.130:42005] logged in with entity id 2150 at ([world] 0.47665916407601383, 157.0, 0.6096977072765984)
+[22:02:47 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/f6d39091-cfd1-41af-b1ad-0f10883110f4.yml
+[22:02:47 INFO]: [0]AhmetFeteve: gqbuuu QUUN_V2 MY Frien ı'm trial moderatörs !
+[22:02:47 INFO]: gqbuuu issued server command: /nickname
+[22:02:51 INFO]: [0]Ben_010: sa
+[22:02:54 INFO]: Ben_010 issued server command: /ping
+[22:02:54 INFO]: [0]MuroBasqan: as
+[22:02:55 INFO]: gqbuuu issued server command: /nickname gqbuuu on
+[22:02:57 INFO]: [0]gqbuuu: g
+[22:02:58 INFO]: [0]Maudalmannen: ggbyuuuu are you owner?
+[22:02:58 INFO]: Syweoir lost connection: Disconnected
+[22:02:58 INFO]: The user doesn't have directly that variable!
+[22:02:58 INFO]: Syweoir has left.
+[22:02:58 INFO]: The user doesn't have directly that variable!
+[22:02:58 INFO]: Syweoir has left.
+[22:02:59 INFO]: [NetixPvP] 10 seconds until the games begin!
+[22:03:00 INFO]: [0]AhmetFeteve: gqbuuu MrDengesiz my friend
+[22:03:01 INFO]: gqbuuu issued server command: /nickname gqbuuu gqbuuu
+[22:03:02 INFO]: [0]AlmightyOG: gg
+[22:03:04 INFO]: [0]AhmetFeteve: gqbuuu MrDengesiz my friend
+[22:03:06 INFO]: [0]RedShooter: badlion ip banned :(
+[22:03:06 INFO]: [NetixPvP] 3 seconds until the games begin!
+[22:03:07 INFO]: [NetixPvP] 2 seconds until the games begin!
+[22:03:08 INFO]: [NetixPvP] 1 seconds until the games begin!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:09 INFO]: [NetixPvP] 30 seconds until the games begin!
+[22:03:13 INFO]: [0]RedShooter: badlion ip banned :( :8((
+[22:03:15 INFO]: [0]AhmetFeteve: gqbuuu
+[22:03:17 INFO]: [0]AlmightyOG: hi guys
+[22:03:20 INFO]: [0]gqbuuu: dont spam
+[22:03:23 INFO]: [0]Carina2001: sall wow
+[22:03:24 INFO]: [0]AhmetFeteve: sorry
+[22:03:24 INFO]: [0]RedShooter: gqbuuu
+[22:03:25 INFO]: UUID of player FrozenGaps is 755f7a16-1ef4-4ab2-b1f4-ca5043ceadb9
+[22:03:25 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:25 INFO]: The user doesn't have directly that variable!
+[22:03:25 INFO]: FrozenGaps has joined.
+[22:03:25 INFO]: The user doesn't have directly that variable!
+[22:03:25 INFO]: FrozenGaps has joined.
+[22:03:25 INFO]: FrozenGaps[/69.126.36.123:46051] logged in with entity id 2151 at ([SurvivalGames4] 15.489294280665318, 30.5, 5.539023719528315)
+[22:03:27 INFO]: [0]MemoKeroRS: gqbuuu give my vip pls
+[22:03:27 INFO]: [0]ToggledClick: cool
+[22:03:28 INFO]: [0]YouSpitICrit: Cxlvxn was playing on here
+[22:03:30 INFO]: [NetixPvP] 10 seconds until the games begin!
+[22:03:30 INFO]: UUID of player MC_Pika is c7cc9338-5614-428b-a97d-a92165845e8e
+[22:03:30 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:30 INFO]: The user doesn't have directly that variable!
+[22:03:30 INFO]: MC_Pika has joined.
+[22:03:30 INFO]: The user doesn't have directly that variable!
+[22:03:30 INFO]: MC_Pika has joined.
+[22:03:30 INFO]: MC_Pika[/72.235.150.142:52811] logged in with entity id 2152 at ([SurvivalGames4] 17.54718915977628, 30.5, 1.6029992822584047)
+[22:03:31 INFO]: [0]RedShooter: badlion ip banned :(
+[22:03:32 INFO]: [0]Carina2001: wow te sun ?
+[22:03:33 INFO]: [0]RedShooter: gqbuuu
+[22:03:33 INFO]: [0]Xezani: Ik
+[22:03:34 INFO]: [0]AhmetFeteve: Don't spam pelase/lütfen spam yapmayınız !
+[22:03:34 INFO]: [0]gqbuuu: ye i know
+[22:03:34 INFO]: [0]Ben_010: OK. gqbuuu
+[22:03:34 INFO]: [0]RedShooter: badlion ip banned :(
+[22:03:34 INFO]: UUID of player OsmannMC is cc34ed9a-3e46-463d-89fb-589a7abccd2a
+[22:03:34 WARN]: [AdvancedSurvivalGames] YOUR ECONOMY SETTINGS ARE WRONG! CHECK YOUR CONFIG FILES!
+[22:03:34 INFO]: The user doesn't have directly that variable!
+[22:03:34 INFO]: OsmannMC has joined.
+[22:03:34 INFO]: The user doesn't have directly that variable!
+[22:03:34 INFO]: OsmannMC has joined.
+[22:03:34 INFO]: OsmannMC[/24.133.136.27:34602] logged in with entity id 2153 at ([SurvivalGames4] 17.491288770144507, 30.5, -2.5334119171311578)
+[22:03:35 INFO]: [NetixPvP] 5 seconds until the games begin!
+[22:03:36 INFO]: [NetixPvP] 4 seconds until the games begin!
+[22:03:36 INFO]: [0]AhmetFeteve: Don't spam pelase/lütfen spam yapmayınız !
+[22:03:37 INFO]: [NetixPvP] 3 seconds until the games begin!
+[22:03:38 INFO]: [NetixPvP] 2 seconds until the games begin!
+[22:03:38 INFO]: [0]Ben_010: OK. gqbuuu
+[22:03:39 INFO]: [NetixPvP] 1 seconds until the games begin!
+[22:03:40 INFO]: [NetixPvP] The game has been started!
+[22:03:40 INFO]: [0]OsmannMC: gqbuuu
+[22:03:49 INFO]: [NetixPvP] There are [18] tributes remaining.
+[22:03:49 INFO]: [NetixPvP] ToggledClick killed AhmetFeteve
+[22:03:49 INFO]: [NetixPvP] There are [17] tributes remaining.
+[22:03:49 INFO]: [NetixPvP] MemoKeroRS killed WowRobert
+[22:03:52 INFO]: YouSpitICrit issued server command: /fix
+[22:03:52 INFO]: [0]SPEC|AhmetFeteve: Don't spam pelase/lütfen spam yapmayınız !
+[22:04:00 INFO]: AhmetFeteve issued server command: /appyl
+[22:04:01 INFO]: YouSpitICrit issued server command: /fix
+[22:04:02 WARN]: AhmetFeteve moved wrongly!
+[22:04:02 INFO]: [0]Carina2001: wow te sun
+[22:04:03 INFO]: UUID of player juho9000 is 203bf574-cddb-4665-a631-889c858f6c28
+[22:04:03 INFO]: The user doesn't have directly that variable!
+[22:04:03 INFO]: juho9000 has joined.
+[22:04:03 INFO]: The user doesn't have directly that variable!
+[22:04:03 INFO]: juho9000 has joined.
+[22:04:03 INFO]: juho9000[/95.14.20.23:39628] logged in with entity id 2162 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:04:03 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/203bf574-cddb-4665-a631-889c858f6c28.yml
+[22:04:05 INFO]: [NetixPvP] There are [16] tributes remaining.
+[22:04:05 INFO]: [NetixPvP] ToggledClick killed RedShooter
+[22:04:06 INFO]: AlmightyOG issued server command: /ping
+[22:04:06 INFO]: [0]OsmannMC: gqbuuu do you want to mcgamer featherboar, liteban mesage
+[22:04:10 INFO]: juho9000 lost connection: Disconnected
+[22:04:10 INFO]: The user doesn't have directly that variable!
+[22:04:10 INFO]: juho9000 has left.
+[22:04:10 INFO]: The user doesn't have directly that variable!
+[22:04:10 INFO]: juho9000 has left.
+[22:04:12 INFO]: RedShooter lost connection: Disconnected
+[22:04:12 INFO]: The user doesn't have directly that variable!
+[22:04:12 INFO]: RedShooter has left.
+[22:04:12 INFO]: The user doesn't have directly that variable!
+[22:04:12 INFO]: RedShooter has left.
+[22:04:13 INFO]: UUID of player reafy is 00350c4b-4cf3-4e55-be61-7aad70907e7c
+[22:04:13 INFO]: The user doesn't have directly that variable!
+[22:04:13 INFO]: reafy has joined.
+[22:04:13 INFO]: The user doesn't have directly that variable!
+[22:04:13 INFO]: reafy has joined.
+[22:04:13 INFO]: reafy[/37.77.120.11:42139] logged in with entity id 2178 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:04:13 INFO]: AhmetFeteve lost connection: Disconnected
+[22:04:13 INFO]: The user doesn't have directly that variable!
+[22:04:13 INFO]: AhmetFeteve has left.
+[22:04:13 INFO]: The user doesn't have directly that variable!
+[22:04:13 INFO]: AhmetFeteve has left.
+[22:04:17 INFO]: reafy lost connection: Disconnected
+[22:04:17 INFO]: The user doesn't have directly that variable!
+[22:04:17 INFO]: reafy has left.
+[22:04:17 INFO]: The user doesn't have directly that variable!
+[22:04:17 INFO]: reafy has left.
+[22:04:20 INFO]: [NetixPvP] There are [15] tributes remaining.
+[22:04:20 INFO]: [NetixPvP] MuroBasqan killed AlmightyOG
+[22:04:22 INFO]: UUID of player juho9000 is 203bf574-cddb-4665-a631-889c858f6c28
+[22:04:22 INFO]: The user doesn't have directly that variable!
+[22:04:22 INFO]: juho9000 has joined.
+[22:04:22 INFO]: The user doesn't have directly that variable!
+[22:04:22 INFO]: juho9000 has joined.
+[22:04:22 INFO]: juho9000[/95.14.20.23:54592] logged in with entity id 2189 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:04:23 INFO]: AlmightyOG lost connection: Disconnected
+[22:04:23 INFO]: The user doesn't have directly that variable!
+[22:04:23 INFO]: AlmightyOG has left.
+[22:04:23 INFO]: The user doesn't have directly that variable!
+[22:04:23 INFO]: AlmightyOG has left.
+[22:04:24 INFO]: juho9000 lost connection: Disconnected
+[22:04:24 INFO]: The user doesn't have directly that variable!
+[22:04:24 INFO]: juho9000 has left.
+[22:04:24 INFO]: The user doesn't have directly that variable!
+[22:04:24 INFO]: juho9000 has left.
+[22:04:26 INFO]: WowRobert lost connection: Disconnected
+[22:04:26 INFO]: The user doesn't have directly that variable!
+[22:04:26 INFO]: WowRobert has left.
+[22:04:26 INFO]: The user doesn't have directly that variable!
+[22:04:26 INFO]: WowRobert has left.
+[22:04:26 INFO]: [NetixPvP] There are [14] tributes remaining.
+[22:04:26 INFO]: [NetixPvP] Carina2001 killed Xezani
+[22:04:26 INFO]: [NetixPvP] There are [13] tributes remaining.
+[22:04:26 INFO]: [NetixPvP] ToggledClick killed OsmannMC
+[22:04:30 INFO]: YouSpitICrit issued server command: /fix
+[22:04:32 INFO]: Xezani lost connection: Disconnected
+[22:04:32 INFO]: The user doesn't have directly that variable!
+[22:04:32 INFO]: Xezani has left.
+[22:04:32 INFO]: The user doesn't have directly that variable!
+[22:04:32 INFO]: Xezani has left.
+[22:04:34 INFO]: Carina2001 issued server command: /l
+[22:04:36 INFO]: OsmannMC issued server command: /list
+[22:04:36 INFO]: OsmannMC issued server command: /
+[22:04:38 INFO]: OsmannMC issued server command: /d
+[22:04:39 INFO]: OsmannMC issued server command: /ud
+[22:04:47 INFO]: [NetixPvP] There are [12] tributes remaining.
+[22:04:47 INFO]: [NetixPvP] MemoKeroRS killed MC_Pika
+[22:04:47 INFO]: OsmannMC issued server command: /litebans
+[22:04:49 INFO]: OsmannMC issued server command: /mute
+[22:04:53 INFO]: OsmannMC lost connection: Disconnected
+[22:04:53 INFO]: The user doesn't have directly that variable!
+[22:04:53 INFO]: OsmannMC has left.
+[22:04:53 INFO]: The user doesn't have directly that variable!
+[22:04:53 INFO]: OsmannMC has left.
+[22:04:54 INFO]: [0]SPEC|MC_Pika: this is mental
+[22:05:01 INFO]: UUID of player SabsalJojuk is 4e606b84-89d3-42d1-afae-b677f19de920
+[22:05:01 INFO]: The user doesn't have directly that variable!
+[22:05:01 INFO]: SabsalJojuk has joined.
+[22:05:01 INFO]: The user doesn't have directly that variable!
+[22:05:01 INFO]: SabsalJojuk has joined.
+[22:05:01 INFO]: SabsalJojuk[/88.253.249.202:58911] logged in with entity id 2249 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:05:01 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/4e606b84-89d3-42d1-afae-b677f19de920.yml
+[22:05:02 INFO]: [NetixPvP] There are [11] tributes remaining.
+[22:05:02 INFO]: [NetixPvP] Carina2001 killed gqbuuu
+[22:05:02 INFO]: ToggledClick issued server command: /stats
+[22:05:08 INFO]: UUID of player ZioZen is a8423594-4b4a-4997-9854-bbaa0076536b
+[22:05:08 INFO]: The user doesn't have directly that variable!
+[22:05:08 INFO]: ZioZen has joined.
+[22:05:08 INFO]: The user doesn't have directly that variable!
+[22:05:08 INFO]: ZioZen has joined.
+[22:05:08 INFO]: ZioZen[/37.77.123.182:46509] logged in with entity id 2277 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:05:08 INFO]: MC_Pika issued server command: /msg gqbuuu Will their ever be US servers? or is that just banter
+[22:05:09 INFO]: SabsalJojuk lost connection: Disconnected
+[22:05:09 INFO]: The user doesn't have directly that variable!
+[22:05:09 INFO]: SabsalJojuk has left.
+[22:05:09 INFO]: The user doesn't have directly that variable!
+[22:05:09 INFO]: SabsalJojuk has left.
+[22:05:13 INFO]: [0]MemoKeroRS: sw is good
+[22:05:16 INFO]: ZioZen lost connection: Disconnected
+[22:05:16 INFO]: The user doesn't have directly that variable!
+[22:05:16 INFO]: ZioZen has left.
+[22:05:16 INFO]: The user doesn't have directly that variable!
+[22:05:16 INFO]: ZioZen has left.
+[22:05:16 INFO]: gqbuuu issued server command: /invsee Carina2001
+[22:05:29 INFO]: UUID of player Cuds is 657c65af-721b-4a47-93ca-75fdcf10564a
+[22:05:29 INFO]: The user doesn't have directly that variable!
+[22:05:29 INFO]: Cuds has joined.
+[22:05:29 INFO]: The user doesn't have directly that variable!
+[22:05:29 INFO]: Cuds has joined.
+[22:05:29 INFO]: Cuds[/89.127.3.114:52708] logged in with entity id 2294 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:05:33 INFO]: Carina2001 issued server command: /l
+[22:05:37 INFO]: [0]SPEC|Cuds: gqbuuu
+[22:05:38 INFO]: [NetixPvP] There are [10] tributes remaining.
+[22:05:38 INFO]: [NetixPvP] FrozenGaps killed ToggledClick
+[22:05:39 INFO]: gqbuuu issued server command: /msg Cuds why you block me ?
+[22:05:42 INFO]: ToggledClick issued server command: /list
+[22:05:44 INFO]: MC_Pika issued server command: /msg gqbuuu Will their ever be US servers?
+[22:05:44 INFO]: [0]SPEC|ToggledClick: shityyyyyyyyyy
+[22:05:45 INFO]: ToggledClick lost connection: Disconnected
+[22:05:45 INFO]: The user doesn't have directly that variable!
+[22:05:45 INFO]: ToggledClick has left.
+[22:05:45 INFO]: The user doesn't have directly that variable!
+[22:05:45 INFO]: ToggledClick has left.
+[22:05:47 INFO]: Cuds issued server command: /r why'd you remove my skype
+[22:05:56 INFO]: UUID of player TaktikGaming is f7eea2a1-fb8d-486d-8f68-459ac405820d
+[22:05:56 INFO]: The user doesn't have directly that variable!
+[22:05:56 INFO]: TaktikGaming has joined.
+[22:05:56 INFO]: The user doesn't have directly that variable!
+[22:05:56 INFO]: TaktikGaming has joined.
+[22:05:56 INFO]: TaktikGaming[/95.10.24.166:56990] logged in with entity id 2334 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:05:56 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/f7eea2a1-fb8d-486d-8f68-459ac405820d.yml
+[22:06:01 INFO]: [0]Ben_010: OK. gqbuuu
+[22:06:02 INFO]: TaktikGaming lost connection: Disconnected
+[22:06:02 INFO]: The user doesn't have directly that variable!
+[22:06:02 INFO]: TaktikGaming has left.
+[22:06:02 INFO]: The user doesn't have directly that variable!
+[22:06:02 INFO]: TaktikGaming has left.
+[22:06:03 INFO]: Ben_010 issued server command: /ping
+[22:06:03 INFO]: UUID of player Scrpp is bd0d5948-dd48-4646-a2a2-e8d3e3ec70fd
+[22:06:03 INFO]: The user doesn't have directly that variable!
+[22:06:03 INFO]: Scrpp has joined.
+[22:06:03 INFO]: The user doesn't have directly that variable!
+[22:06:03 INFO]: Scrpp has joined.
+[22:06:03 INFO]: Scrpp[/95.26.181.241:38509] logged in with entity id 2341 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:06:04 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/bd0d5948-dd48-4646-a2a2-e8d3e3ec70fd.yml
+[22:06:05 INFO]: Ben_010 issued server command: /ping
+[22:06:08 INFO]: gqbuuu issued server command: /msg Cuds my skype is keylogger5235@gmail.com
+[22:06:09 INFO]: gqbuuu issued server command: /msg Cuds my skype is keylogger5235@gmail.com
+[22:06:12 INFO]: [0]MuroBasqan: wtf
+[22:06:13 INFO]: Scrpp lost connection: Disconnected
+[22:06:13 INFO]: The user doesn't have directly that variable!
+[22:06:13 INFO]: Scrpp has left.
+[22:06:13 INFO]: The user doesn't have directly that variable!
+[22:06:13 INFO]: Scrpp has left.
+[22:06:14 INFO]: UUID of player Kleazy is db2185ef-fbed-4755-a74d-44d01e98f0c1
+[22:06:14 INFO]: The user doesn't have directly that variable!
+[22:06:14 INFO]: Kleazy has joined.
+[22:06:14 INFO]: The user doesn't have directly that variable!
+[22:06:14 INFO]: Kleazy has joined.
+[22:06:14 INFO]: Kleazy[/88.236.223.50:52484] logged in with entity id 2358 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:06:14 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/db2185ef-fbed-4755-a74d-44d01e98f0c1.yml
+[22:06:19 INFO]: [NetixPvP] There are [9] tributes remaining.
+[22:06:19 INFO]: [NetixPvP] MuroBasqan killed Carina2001
+[22:06:20 INFO]: Kleazy lost connection: Disconnected
+[22:06:20 INFO]: The user doesn't have directly that variable!
+[22:06:20 INFO]: Kleazy has left.
+[22:06:20 INFO]: The user doesn't have directly that variable!
+[22:06:20 INFO]: Kleazy has left.
+[22:06:28 INFO]: gqbuuu lost connection: Disconnected
+[22:06:28 INFO]: The user doesn't have directly that variable!
+[22:06:28 INFO]: gqbuuu has left.
+[22:06:28 INFO]: The user doesn't have directly that variable!
+[22:06:28 INFO]: gqbuuu has left.
+[22:06:30 INFO]: [0]MuroBasqan: nice pvp bro
+[22:06:35 INFO]: UUID of player gqbuuu is c8c148a0-4b8c-412e-b195-074fa759b6f7
+[22:06:35 INFO]: The user doesn't have directly that variable!
+[22:06:35 INFO]: gqbuuu has joined.
+[22:06:35 INFO]: The user doesn't have directly that variable!
+[22:06:35 INFO]: gqbuuu has joined.
+[22:06:35 INFO]: gqbuuu[/185.11.234.185:32873] logged in with entity id 2401 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:06:40 INFO]: YouSpitICrit issued server command: /fix
+[22:06:47 INFO]: UUID of player Etzlo is 4c423d75-0e8f-4bf6-ac0b-ccc80b564abf
+[22:06:47 INFO]: The user doesn't have directly that variable!
+[22:06:47 INFO]: Etzlo has joined.
+[22:06:47 INFO]: The user doesn't have directly that variable!
+[22:06:47 INFO]: Etzlo has joined.
+[22:06:47 INFO]: Etzlo[/78.184.49.242:39133] logged in with entity id 2414 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:06:47 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/4c423d75-0e8f-4bf6-ac0b-ccc80b564abf.yml
+[22:06:48 INFO]: [0]SPEC|gqbuuu: .
+[22:06:53 INFO]: Etzlo lost connection: Disconnected
+[22:06:53 INFO]: The user doesn't have directly that variable!
+[22:06:53 INFO]: Etzlo has left.
+[22:06:53 INFO]: The user doesn't have directly that variable!
+[22:06:53 INFO]: Etzlo has left.
+[22:06:53 INFO]: [0]MemoKeroRS: gqbuuu gi dude
+[22:06:59 INFO]: gqbuuu lost connection: Disconnected
+[22:06:59 INFO]: The user doesn't have directly that variable!
+[22:06:59 INFO]: gqbuuu has left.
+[22:06:59 INFO]: The user doesn't have directly that variable!
+[22:06:59 INFO]: gqbuuu has left.
+[22:07:06 INFO]: Carina2001 issued server command: /msg MuroBasqan 4 hp i fight with gqbuuu
+[22:07:11 INFO]: [NetixPvP] There are [8] tributes remaining.
+[22:07:11 INFO]: [NetixPvP] Reyizberk killed Mr_Jefff
+[22:07:18 INFO]: MuroBasqan issued server command: /r wow
+[22:07:23 INFO]: Mr_Jefff lost connection: Disconnected
+[22:07:23 INFO]: The user doesn't have directly that variable!
+[22:07:23 INFO]: Mr_Jefff has left.
+[22:07:23 INFO]: The user doesn't have directly that variable!
+[22:07:23 INFO]: Mr_Jefff has left.
+[22:07:24 INFO]: Carina2001 issued server command: /msg MuroBasqan you 10 me 4
+[22:07:26 INFO]: GroupManager - INFO -  Data files refreshed.
+[22:07:28 INFO]: UUID of player BerkayParlarYT is 16914bd2-d2f0-4ea1-8216-717c57bb49d4
+[22:07:29 INFO]: The user doesn't have directly that variable!
+[22:07:29 INFO]: BerkayParlarYT has joined.
+[22:07:29 INFO]: The user doesn't have directly that variable!
+[22:07:29 INFO]: BerkayParlarYT has joined.
+[22:07:29 INFO]: BerkayParlarYT[/78.184.134.178:56862] logged in with entity id 2429 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:07:31 INFO]: MuroBasqan issued server command: /
+[22:07:32 INFO]: YouSpitICrit issued server command: /fix
+[22:07:33 INFO]: UUID of player gqbuuu is c8c148a0-4b8c-412e-b195-074fa759b6f7
+[22:07:33 INFO]: The user doesn't have directly that variable!
+[22:07:33 INFO]: gqbuuu has joined.
+[22:07:33 INFO]: The user doesn't have directly that variable!
+[22:07:33 INFO]: gqbuuu has joined.
+[22:07:33 INFO]: gqbuuu[/185.11.234.185:48481] logged in with entity id 2430 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:07:36 INFO]: gqbuuu lost connection: Disconnected
+[22:07:36 INFO]: The user doesn't have directly that variable!
+[22:07:36 INFO]: gqbuuu has left.
+[22:07:36 INFO]: The user doesn't have directly that variable!
+[22:07:36 INFO]: gqbuuu has left.
+[22:07:37 INFO]: [NetixPvP] There are [7] tributes remaining.
+[22:07:37 INFO]: [NetixPvP] MuroBasqan killed Reyizberk
+[22:07:41 INFO]: [0]MuroBasqan: Owwww
+[22:07:43 INFO]: [0]MuroBasqan: Rekt
+[22:07:46 INFO]: BerkayParlarYT lost connection: Disconnected
+[22:07:46 INFO]: The user doesn't have directly that variable!
+[22:07:46 INFO]: BerkayParlarYT has left.
+[22:07:46 INFO]: The user doesn't have directly that variable!
+[22:07:46 INFO]: BerkayParlarYT has left.
+[22:07:47 INFO]: [0]SPEC|Reyizberk: oha
+[22:07:49 INFO]: Carina2001 lost connection: Disconnected
+[22:07:49 INFO]: The user doesn't have directly that variable!
+[22:07:49 INFO]: Carina2001 has left.
+[22:07:49 INFO]: The user doesn't have directly that variable!
+[22:07:49 INFO]: Carina2001 has left.
+[22:07:50 INFO]: MuroBasqan issued server command: /rhm
+[22:07:51 INFO]: UUID of player BerkayParlarYT is 16914bd2-d2f0-4ea1-8216-717c57bb49d4
+[22:07:51 INFO]: The user doesn't have directly that variable!
+[22:07:51 INFO]: BerkayParlarYT has joined.
+[22:07:51 INFO]: The user doesn't have directly that variable!
+[22:07:51 INFO]: BerkayParlarYT has joined.
+[22:07:51 INFO]: BerkayParlarYT[/78.184.134.178:44152] logged in with entity id 2451 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:07:52 INFO]: MuroBasqan issued server command: /r hm
+[22:07:59 INFO]: MuroBasqan issued server command: /r bro you nice pvp
+[22:08:01 INFO]: BerkayParlarYT lost connection: Disconnected
+[22:08:01 INFO]: The user doesn't have directly that variable!
+[22:08:01 INFO]: BerkayParlarYT has left.
+[22:08:01 INFO]: The user doesn't have directly that variable!
+[22:08:01 INFO]: BerkayParlarYT has left.
+[22:08:13 INFO]: Reyizberk lost connection: Disconnected
+[22:08:13 INFO]: The user doesn't have directly that variable!
+[22:08:13 INFO]: Reyizberk has left.
+[22:08:13 INFO]: The user doesn't have directly that variable!
+[22:08:13 INFO]: Reyizberk has left.
+[22:08:14 INFO]: YouSpitICrit issued server command: /fix
+[22:08:38 INFO]: [NetixPvP] There are [6] tributes remaining.
+[22:08:38 INFO]: [NetixPvP] zPiidi killed YouSpitICrit
+[22:08:40 INFO]: [NetixPvP] There are [5] tributes remaining.
+[22:08:40 INFO]: [NetixPvP] zPiidi has been pushed out from the game!
+[22:08:42 INFO]: [0]SPEC|YouSpitICrit: LOL
+[22:08:44 INFO]: [0]SPEC|YouSpitICrit: r3kt
+[22:08:45 INFO]: [0]SPEC|zPiidi: +
+[22:08:48 INFO]: zPiidi lost connection: Disconnected
+[22:08:48 INFO]: The user doesn't have directly that variable!
+[22:08:48 INFO]: zPiidi has left.
+[22:08:48 INFO]: The user doesn't have directly that variable!
+[22:08:48 INFO]: zPiidi has left.
+[22:08:53 INFO]: Ben_010 issued server command: /ping
+[22:08:55 INFO]: Ben_010 issued server command: /ping
+[22:08:57 INFO]: YouSpitICrit lost connection: Disconnected
+[22:08:57 INFO]: The user doesn't have directly that variable!
+[22:08:57 INFO]: YouSpitICrit has left.
+[22:08:57 INFO]: The user doesn't have directly that variable!
+[22:08:57 INFO]: YouSpitICrit has left.
+[22:08:58 INFO]: [0]Ben_010: T
+[22:10:00 INFO]: [NetixPvP] There are [4] tributes remaining.
+[22:10:00 INFO]: [NetixPvP] FrozenGaps killed MemoKeroRS
+[22:10:01 INFO]: Cuds lost connection: Disconnected
+[22:10:01 INFO]: The user doesn't have directly that variable!
+[22:10:01 INFO]: Cuds has left.
+[22:10:01 INFO]: The user doesn't have directly that variable!
+[22:10:01 INFO]: Cuds has left.
+[22:10:04 INFO]: UUID of player Dragonborn_AH is 2668e3e2-44b7-4bcc-8fc5-f0a0108bb0ce
+[22:10:04 INFO]: The user doesn't have directly that variable!
+[22:10:04 INFO]: Dragonborn_AH has joined.
+[22:10:04 INFO]: The user doesn't have directly that variable!
+[22:10:04 INFO]: Dragonborn_AH has joined.
+[22:10:04 INFO]: Dragonborn_AH[/85.106.185.239:57223] logged in with entity id 2561 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:10:04 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/2668e3e2-44b7-4bcc-8fc5-f0a0108bb0ce.yml
+[22:10:13 INFO]: MemoKeroRS lost connection: Disconnected
+[22:10:13 INFO]: The user doesn't have directly that variable!
+[22:10:13 INFO]: MemoKeroRS has left.
+[22:10:13 INFO]: The user doesn't have directly that variable!
+[22:10:13 INFO]: MemoKeroRS has left.
+[22:10:18 INFO]: [0]SPEC|Dragonborn_AH: sa
+[22:10:28 INFO]: Dragonborn_AH lost connection: Disconnected
+[22:10:28 INFO]: The user doesn't have directly that variable!
+[22:10:28 INFO]: Dragonborn_AH has left.
+[22:10:28 INFO]: The user doesn't have directly that variable!
+[22:10:28 INFO]: Dragonborn_AH has left.
+[22:10:33 INFO]: UUID of player qqLegend is 6a00fd41-c8e1-4a74-a2a8-07cacb34dacf
+[22:10:33 INFO]: The user doesn't have directly that variable!
+[22:10:33 INFO]: qqLegend has joined.
+[22:10:33 INFO]: The user doesn't have directly that variable!
+[22:10:33 INFO]: qqLegend has joined.
+[22:10:33 INFO]: qqLegend[/94.174.227.242:49126] logged in with entity id 2567 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:10:33 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/6a00fd41-c8e1-4a74-a2a8-07cacb34dacf.yml
+[22:10:40 INFO]: qqLegend lost connection: Disconnected
+[22:10:40 INFO]: The user doesn't have directly that variable!
+[22:10:40 INFO]: qqLegend has left.
+[22:10:40 INFO]: The user doesn't have directly that variable!
+[22:10:40 INFO]: qqLegend has left.
+[22:10:45 INFO]: Ben_010 issued server command: /ping
+[22:10:45 INFO]: [0]Ben_010: T
+[22:10:45 INFO]: UUID of player F0rg0tten is e154cc21-dd60-419f-afd2-c533edd6200a
+[22:10:45 INFO]: The user doesn't have directly that variable!
+[22:10:45 INFO]: F0rg0tten has joined.
+[22:10:45 INFO]: The user doesn't have directly that variable!
+[22:10:45 INFO]: F0rg0tten has joined.
+[22:10:45 INFO]: F0rg0tten[/95.14.115.75:42027] logged in with entity id 2572 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:10:45 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/e154cc21-dd60-419f-afd2-c533edd6200a.yml
+[22:10:50 INFO]: F0rg0tten lost connection: Disconnected
+[22:10:50 INFO]: The user doesn't have directly that variable!
+[22:10:50 INFO]: F0rg0tten has left.
+[22:10:50 INFO]: The user doesn't have directly that variable!
+[22:10:50 INFO]: F0rg0tten has left.
+[22:11:06 INFO]: UUID of player Znxw is 09462b9e-ef6d-4752-ad8a-ed75015e07c9
+[22:11:06 INFO]: The user doesn't have directly that variable!
+[22:11:06 INFO]: Znxw has joined.
+[22:11:06 INFO]: The user doesn't have directly that variable!
+[22:11:06 INFO]: Znxw has joined.
+[22:11:06 INFO]: Znxw[/24.130.202.50:50777] logged in with entity id 2576 at ([SurvivalGames4] 3.0, 36.5, 1.0)
+[22:11:06 INFO]: Creating empty config: /home/gs/gs/data/servers/4455931/plugins/Essentials/userdata/09462b9e-ef6d-4752-ad8a-ed75015e07c9.yml
+[22:11:07 INFO]: Ben_010 issued server command: /ping
+[22:11:14 INFO]: Znxw lost connection: Disconnected
+[22:11:14 INFO]: The user doesn't have directly that variable!
+[22:11:14 INFO]: Znxw has left.
+[22:11:14 INFO]: The user doesn't have directly that variable!
+[22:11:14 INFO]: Znxw has left.
